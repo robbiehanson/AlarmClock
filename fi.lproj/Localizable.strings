@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minuuttia";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Muita asetuksia";
+
+/* Preference Pane Option */
+"Easy Wake" = "Easy Wake";
+
+/* Preference Pane Option */
+"General" = "Yleistä";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Ohjelman sisäinen rakenneosa on muuttunut. Tietokoneen herättäminen vaatii uudelleenkirjautumisen.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Ohjelman sisäisiin rakennosiin on kajottu. Asenta ohjelman uudelleen.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Kirjaudu uudelleen";
+
+/* Dialog Title */
+"Security Warning" = "Turvallisuusvaroitus";
+
+/* Preference Pane Option */
+"Software Update" = "Ohjelmistopäivitys";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Tämä ohjelma toimii ruudun oikeassa yläkulmassa. Voit säätää herätyksiä, vaihtaa asetuksia, ja sulkea ohjelman tästä kuvakkeesta. Nauti!\n\nPS - Herättääksesi koneen torkkutilasta, sinun täytyy kirjautua ohjelman asetuksista.";
+
+/* Today */
+"Today" = "Tänään";
+
+/* Tomorrow */
+"Tomorrow" = "Huomenna";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Tervetuloa Alarm Clockiin";

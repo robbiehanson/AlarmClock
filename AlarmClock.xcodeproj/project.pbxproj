@@ -1,0 +1,1554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1107280486CEB800E47090 /* AlarmClock_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* AlarmClock_Prefix.pch */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		DC092FA609A97E17004B788B /* MTCoreAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DC092FA409A97E17004B788B /* MTCoreAudioDevice.h */; };
+		DC092FA709A97E17004B788B /* MTCoreAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DC092FA509A97E17004B788B /* MTCoreAudioDevice.m */; };
+		DC092FE809A9806C004B788B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC092FE709A9806C004B788B /* CoreAudio.framework */; };
+		DC10105409D25A4900D84FD8 /* WindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10105209D25A4900D84FD8 /* WindowManager.h */; };
+		DC10105509D25A4900D84FD8 /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10105309D25A4900D84FD8 /* WindowManager.m */; };
+		DC10140609D340AB00D84FD8 /* AppleRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10140409D340AB00D84FD8 /* AppleRemote.h */; };
+		DC10140709D340AB00D84FD8 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */; };
+		DC11777E0A16FB400096B086 /* TransparentController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1177790A16FB400096B086 /* TransparentController.h */; };
+		DC11777F0A16FB400096B086 /* TransparentView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC11777A0A16FB400096B086 /* TransparentView.h */; };
+		DC1177800A16FB400096B086 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC11777B0A16FB400096B086 /* TransparentView.m */; };
+		DC1177810A16FB400096B086 /* TransparentWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DC11777C0A16FB400096B086 /* TransparentWindow.h */; };
+		DC1177820A16FB400096B086 /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC11777D0A16FB400096B086 /* TransparentWindow.m */; };
+		DC1177F60A1703800096B086 /* StopwatchController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1177F40A1703800096B086 /* StopwatchController.h */; };
+		DC1177F70A1703800096B086 /* StopwatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1177F50A1703800096B086 /* StopwatchController.m */; };
+		DC117AAD0A1888FE0096B086 /* StopwatchWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = DC117AAC0A1888FE0096B086 /* StopwatchWindow.nib */; };
+		DC117AB90A188C5D0096B086 /* TimerWindow.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC117AB70A188C5D0096B086 /* TimerWindow.strings */; };
+		DC117AC50A188D880096B086 /* StopwatchWindow.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC117AC30A188D880096B086 /* StopwatchWindow.strings */; };
+		DC121FBE06BA2D4100132FBF /* AlarmClock.icns in Resources */ = {isa = PBXBuildFile; fileRef = DC121FBD06BA2D4100132FBF /* AlarmClock.icns */; };
+		DC1387EB09ACD8AD006ECAB5 /* ITunesPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1387E909ACD8AD006ECAB5 /* ITunesPlayer.h */; };
+		DC1387EC09ACD8AD006ECAB5 /* ITunesPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1387EA09ACD8AD006ECAB5 /* ITunesPlayer.m */; };
+		DC13880509ACDE72006ECAB5 /* ITunesData.h in Headers */ = {isa = PBXBuildFile; fileRef = DC13880309ACDE72006ECAB5 /* ITunesData.h */; };
+		DC13880609ACDE72006ECAB5 /* ITunesData.m in Sources */ = {isa = PBXBuildFile; fileRef = DC13880409ACDE72006ECAB5 /* ITunesData.m */; };
+		DC13883009ACE206006ECAB5 /* ITunesTable.h in Headers */ = {isa = PBXBuildFile; fileRef = DC13882E09ACE206006ECAB5 /* ITunesTable.h */; };
+		DC13883109ACE206006ECAB5 /* ITunesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = DC13882F09ACE206006ECAB5 /* ITunesTable.m */; };
+		DC2E2CD70B59A393001ABCB5 /* RHDateToStringTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2E2CD50B59A393001ABCB5 /* RHDateToStringTransformer.h */; };
+		DC2E2CD80B59A393001ABCB5 /* RHDateToStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2E2CD60B59A393001ABCB5 /* RHDateToStringTransformer.m */; };
+		DC2E2CE00B59A619001ABCB5 /* SoftwareUpdate.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2E2CDF0B59A619001ABCB5 /* SoftwareUpdate.png */; };
+		DC2E2DEF0B59AB35001ABCB5 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2E2DEE0B59AB35001ABCB5 /* Sparkle.framework */; };
+		DC2E2E090B59AB7D001ABCB5 /* Sparkle.framework in Copy Internal Frameworks */ = {isa = PBXBuildFile; fileRef = DC2E2DEE0B59AB35001ABCB5 /* Sparkle.framework */; };
+		DC337C9906AD2C9D0058AEBE /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC337C9706AD2C9D0058AEBE /* MenuController.m */; };
+		DC337C9A06AD2C9D0058AEBE /* MenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC337C9806AD2C9D0058AEBE /* MenuController.h */; };
+		DC48EBFB0B6C80C900D92D76 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC48EBFA0B6C80C900D92D76 /* QuickTime.framework */; };
+		DC52D1900862AC93004D81B2 /* trayIconBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = DC52D18F0862AC93004D81B2 /* trayIconBlack.png */; };
+		DC6C828B07F9693400933C45 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C828907F9693400933C45 /* RoundedView.m */; };
+		DC6C828C07F9693400933C45 /* RoundedView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C828A07F9693400933C45 /* RoundedView.h */; };
+		DC6C82A507F96A5000933C45 /* RoundedWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6C82A307F96A5000933C45 /* RoundedWindow.h */; };
+		DC6C82A607F96A5000933C45 /* RoundedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C82A407F96A5000933C45 /* RoundedWindow.m */; };
+		DC7410870A3ECAB200CEB97F /* MyApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7410850A3ECAB200CEB97F /* MyApplication.h */; };
+		DC7410880A3ECAB200CEB97F /* MyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7410860A3ECAB200CEB97F /* MyApplication.m */; };
+		DC7410B00A3ECF0600CEB97F /* AlarmClock.sdef in Resources */ = {isa = PBXBuildFile; fileRef = DC7410AF0A3ECF0600CEB97F /* AlarmClock.sdef */; };
+		DC81FABB077E02A500F0C1C6 /* CalendarAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DC81FAB9077E02A500F0C1C6 /* CalendarAdditions.h */; };
+		DC81FABC077E02A500F0C1C6 /* CalendarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC81FABA077E02A500F0C1C6 /* CalendarAdditions.m */; };
+		DC8CA6C6068E026F00F1BB2E /* Prefs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8CA6C4068E026F00F1BB2E /* Prefs.h */; };
+		DC8CA6C7068E026F00F1BB2E /* Prefs.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CA6C5068E026F00F1BB2E /* Prefs.m */; };
+		DC8FAFE806F57A76005B5B92 /* AlarmWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = DC8FAFE606F57A76005B5B92 /* AlarmWindow.nib */; };
+		DC8FAFEB06F57B45005B5B92 /* AlarmController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8FAFE906F57B45005B5B92 /* AlarmController.h */; };
+		DC8FAFEC06F57B45005B5B92 /* AlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */; };
+		DC97615D09BCCB2700089A08 /* RHAliasHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC97615B09BCCB2600089A08 /* RHAliasHandler.h */; };
+		DC97615E09BCCB2700089A08 /* RHAliasHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DC97615C09BCCB2600089A08 /* RHAliasHandler.m */; };
+		DCA0B3B907B0566900004706 /* AlarmTasks.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA0B3B707B0566900004706 /* AlarmTasks.h */; };
+		DCA0B3BA07B0566900004706 /* AlarmTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA0B3B807B0566900004706 /* AlarmTasks.m */; };
+		DCA0B4D507B072EE00004706 /* helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA0B4BC07B071F800004706 /* helper.m */; };
+		DCA0B4D607B072FF00004706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		DCA0B4DA07B0732C00004706 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA0B4D907B0732C00004706 /* IOKit.framework */; };
+		DCA0B4DB07B0732C00004706 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA0B4D907B0732C00004706 /* IOKit.framework */; };
+		DCA0B4E307B074A500004706 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA0B4E207B074A500004706 /* Security.framework */; };
+		DCB385040AEABC680047D654 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB385020AEABC680047D654 /* moon.png */; };
+		DCB385050AEABC680047D654 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB385030AEABC680047D654 /* sun.png */; };
+		DCBB422C09A8805B00305551 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBB422B09A8805B00305551 /* QTKit.framework */; };
+		DCBDF74C0B54801900407A6C /* iTunesAudiobooks.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7400B54801900407A6C /* iTunesAudiobooks.png */; };
+		DCBDF74D0B54801900407A6C /* iTunesFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7410B54801900407A6C /* iTunesFolder.png */; };
+		DCBDF74E0B54801900407A6C /* iTunesLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7420B54801900407A6C /* iTunesLibrary.png */; };
+		DCBDF74F0B54801900407A6C /* iTunesMovies.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7430B54801900407A6C /* iTunesMovies.png */; };
+		DCBDF7500B54801900407A6C /* iTunesMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7440B54801900407A6C /* iTunesMusic.png */; };
+		DCBDF7510B54801900407A6C /* iTunesPartyShuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7450B54801900407A6C /* iTunesPartyShuffle.png */; };
+		DCBDF7520B54801900407A6C /* iTunesPlaylist.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7460B54801900407A6C /* iTunesPlaylist.png */; };
+		DCBDF7530B54801900407A6C /* iTunesPodcasts.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7470B54801900407A6C /* iTunesPodcasts.png */; };
+		DCBDF7540B54801900407A6C /* iTunesPurchasedMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7480B54801900407A6C /* iTunesPurchasedMusic.png */; };
+		DCBDF7550B54801900407A6C /* iTunesSmartPlaylist.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7490B54801900407A6C /* iTunesSmartPlaylist.png */; };
+		DCBDF7560B54801900407A6C /* iTunesTVShows.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF74A0B54801900407A6C /* iTunesTVShows.png */; };
+		DCBDF7570B54801900407A6C /* iTunesVideos.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF74B0B54801900407A6C /* iTunesVideos.png */; };
+		DCBDF7620B54805100407A6C /* Advanced.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF75F0B54805100407A6C /* Advanced.png */; };
+		DCBDF7630B54805100407A6C /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7600B54805100407A6C /* General.png */; };
+		DCBDF7640B54805100407A6C /* Sound.png in Resources */ = {isa = PBXBuildFile; fileRef = DCBDF7610B54805100407A6C /* Sound.png */; };
+		DCCE276B07BF0EC900A0851D /* PrefsController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCE276907BF0EC900A0851D /* PrefsController.h */; };
+		DCCE276C07BF0EC900A0851D /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCE276A07BF0EC900A0851D /* PrefsController.m */; };
+		DCCF25800A9A8C5C003DD8A4 /* trayIconBlackAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCF257F0A9A8C5C003DD8A4 /* trayIconBlackAlert.png */; };
+		DCCF25990A9A8C92003DD8A4 /* trayIconGray.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCF25980A9A8C92003DD8A4 /* trayIconGray.png */; };
+		DCD39B840A19D70400137959 /* RoundedController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD39B830A19D70400137959 /* RoundedController.h */; };
+		DCD94A6F0856CF7F0026EC8A /* helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCA0B4CD07B072D500004706 /* helper */; };
+		DCDB0F6209876D9900FE4707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCDB0F6109876D9900FE4707 /* InfoPlist.strings */; };
+		DCDB0F6D09876E0A00FE4707 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCDB0F6C09876E0A00FE4707 /* Localizable.strings */; };
+		DCDB0F7509876E2100FE4707 /* AlarmEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = DCDB0F7409876E2100FE4707 /* AlarmEditor.nib */; };
+		DCDB0F7B09876E3400FE4707 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = DCDB0F7A09876E3400FE4707 /* MainMenu.nib */; };
+		DCDDDFD50A0E0B24008E5191 /* AlarmEditor.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCDDDFD30A0E0B24008E5191 /* AlarmEditor.strings */; };
+		DCDDE0150A0E1A76008E5191 /* AlarmWindow.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCDDE0130A0E1A76008E5191 /* AlarmWindow.strings */; };
+		DCDDE0450A0F2283008E5191 /* TimerWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = DCDDE0430A0F2283008E5191 /* TimerWindow.nib */; };
+		DCDDE0550A0F24E5008E5191 /* TimerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDDE0530A0F24E5008E5191 /* TimerController.h */; };
+		DCDDE0560A0F24E5008E5191 /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDDE0540A0F24E5008E5191 /* TimerController.m */; };
+		DCDDE4640A105369008E5191 /* defaultAlarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DCDDE4630A105369008E5191 /* defaultAlarm.m4a */; };
+		DCDDE4920A10693A008E5191 /* defaultTimer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DCDDE4910A10693A008E5191 /* defaultTimer.m4a */; };
+		DCE204290998A8FD00B764E0 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = DCE204280998A8FD00B764E0 /* Credits.html */; };
+		DCE204520998AAD700B764E0 /* donate.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCE204510998AAD700B764E0 /* donate.gif */; };
+		DCEAE98907DC41C9007FE65C /* CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEAE98707DC41C9007FE65C /* CalendarView.h */; };
+		DCEAE98A07DC41C9007FE65C /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEAE98807DC41C9007FE65C /* CalendarView.m */; };
+		DCEAE99F07DC4624007FE65C /* CalendarBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DCEAE99E07DC4624007FE65C /* CalendarBack.tiff */; };
+		DCEAEA6B07E04996007FE65C /* EditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEA6907E04996007FE65C /* EditorController.m */; };
+		DCEAEA6C07E04996007FE65C /* EditorController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEAEA6A07E04996007FE65C /* EditorController.h */; };
+		DCEAEB9B07E16728007FE65C /* AlarmScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEAEB9907E16728007FE65C /* AlarmScheduler.h */; };
+		DCEAEB9C07E16728007FE65C /* AlarmScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEB9A07E16728007FE65C /* AlarmScheduler.m */; };
+		DCEAEC1607E177C8007FE65C /* Alarm.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEAEC1407E177C8007FE65C /* Alarm.h */; };
+		DCEAEC1707E177C8007FE65C /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEC1507E177C8007FE65C /* Alarm.m */; };
+		DCEAED3607E19FF4007FE65C /* Date.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEAED3507E19FF4007FE65C /* Date.png */; };
+		DCEAED6307E1A530007FE65C /* play.tif in Resources */ = {isa = PBXBuildFile; fileRef = DCEAED6107E1A530007FE65C /* play.tif */; };
+		DCEAED6407E1A530007FE65C /* stop.tif in Resources */ = {isa = PBXBuildFile; fileRef = DCEAED6207E1A530007FE65C /* stop.tif */; };
+		DCF5119F09B4835900052799 /* trayIconColor.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5119D09B4835900052799 /* trayIconColor.png */; };
+		DCF511A009B4835900052799 /* trayIconColorAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5119E09B4835900052799 /* trayIconColorAlert.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD94A600856CF4E0026EC8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA0B4CC07B072D500004706;
+			remoteInfo = helper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC2E2E030B59AB59001ABCB5 /* Copy Internal Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC2E2E090B59AB7D001ABCB5 /* Sparkle.framework in Copy Internal Frameworks */,
+			);
+			name = "Copy Internal Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD94A620856CF5B0026EC8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DCD94A6F0856CF7F0026EC8A /* helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* AlarmClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClock_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC092FA409A97E17004B788B /* MTCoreAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCoreAudioDevice.h; sourceTree = "<group>"; };
+		DC092FA509A97E17004B788B /* MTCoreAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCoreAudioDevice.m; sourceTree = "<group>"; };
+		DC092FE709A9806C004B788B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		DC0B06200C433D9600763361 /* cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = cs; path = cs.lproj/Credits.html; sourceTree = "<group>"; };
+		DC10105209D25A4900D84FD8 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
+		DC10105309D25A4900D84FD8 /* WindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowManager.m; sourceTree = "<group>"; };
+		DC10140409D340AB00D84FD8 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		DC10140509D340AB00D84FD8 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		DC1177790A16FB400096B086 /* TransparentController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TransparentController.h; sourceTree = "<group>"; };
+		DC11777A0A16FB400096B086 /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		DC11777B0A16FB400096B086 /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		DC11777C0A16FB400096B086 /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TransparentWindow.h; sourceTree = "<group>"; };
+		DC11777D0A16FB400096B086 /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TransparentWindow.m; sourceTree = "<group>"; };
+		DC1177E30A17035A0096B086 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC1177F40A1703800096B086 /* StopwatchController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StopwatchController.h; sourceTree = "<group>"; };
+		DC1177F50A1703800096B086 /* StopwatchController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StopwatchController.m; sourceTree = "<group>"; };
+		DC11782A0A170BD50096B086 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC11782B0A170BE90096B086 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC11782C0A170BED0096B086 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC11782D0A170BF00096B086 /* bg */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = bg; path = bg.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC11782E0A170BF30096B086 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC11782F0A170BF60096B086 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC1178300A170BF90096B086 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC1178310A170BFB0096B086 /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = it; path = it.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC1178320A170BFD0096B086 /* he */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = he; path = he.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC117AAE0A18890B0096B086 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AAF0A18890F0096B086 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB00A1889120096B086 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB10A18891C0096B086 /* bg */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = bg; path = bg.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB20A18891E0096B086 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB30A1889210096B086 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB40A1889240096B086 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB50A1889260096B086 /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = it; path = it.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB60A1889280096B086 /* he */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = he; path = he.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC117AB80A188C5D0096B086 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABA0A188C890096B086 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABB0A188CA10096B086 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABC0A188CAC0096B086 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABD0A188CB70096B086 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABE0A188CC30096B086 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117ABF0A188CD00096B086 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117AC00A188CE10096B086 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117AC10A188CF60096B086 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117AC20A188D040096B086 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC117AC40A188D880096B086 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117AC60A188D9F0096B086 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117AC70A188DB80096B086 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117AC80A188DC50096B086 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117AC90A188DD70096B086 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117ACA0A188DE40096B086 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117ACB0A188DF00096B086 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117ACC0A188E000096B086 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117ACD0A188E0C0096B086 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC117ACE0A188E1B0096B086 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC121FBD06BA2D4100132FBF /* AlarmClock.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AlarmClock.icns; path = images/AlarmClock.icns; sourceTree = "<group>"; };
+		DC13879009AB844A006ECAB5 /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC13879309AB8454006ECAB5 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC13879609AB8463006ECAB5 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC13879909AB846C006ECAB5 /* da */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = da; path = da.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC1387E909ACD8AD006ECAB5 /* ITunesPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesPlayer.h; sourceTree = "<group>"; };
+		DC1387EA09ACD8AD006ECAB5 /* ITunesPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesPlayer.m; sourceTree = "<group>"; };
+		DC13880309ACDE72006ECAB5 /* ITunesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesData.h; sourceTree = "<group>"; };
+		DC13880409ACDE72006ECAB5 /* ITunesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesData.m; sourceTree = "<group>"; };
+		DC13882E09ACE206006ECAB5 /* ITunesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesTable.h; sourceTree = "<group>"; };
+		DC13882F09ACE206006ECAB5 /* ITunesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesTable.m; sourceTree = "<group>"; };
+		DC1E4F030A095AD200730CC4 /* he */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = he; path = he.lproj/Credits.html; sourceTree = "<group>"; };
+		DC1E4F060A095ADB00730CC4 /* he */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = he; path = he.lproj/donate.gif; sourceTree = "<group>"; };
+		DC1E4F090A095AE900730CC4 /* he */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC1E4F0C0A095AF100730CC4 /* he */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = he; path = he.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC1E4F0F0A095AF900730CC4 /* he */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = he; path = he.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC1E4F120A095B0100730CC4 /* he */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = he; path = he.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC216156098C4F1F004658FC /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC216159098C4F2A004658FC /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC21615C098C4F35004658FC /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC2515500A62E96200C0C7C3 /* fi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = fi; path = fi.lproj/Credits.html; sourceTree = "<group>"; };
+		DC2515530A62E97900C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fi; path = fi.lproj/donate.gif; sourceTree = "<group>"; };
+		DC2515560A62E98200C0C7C3 /* fi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC2515590A62E98900C0C7C3 /* fi */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC25155C0A62E99000C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC25155F0A62E99800C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC2515620A62E99F00C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC2515650A62E9A600C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fi; path = fi.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC2515680A62E9AD00C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fi; path = fi.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC25156B0A62E9B300C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fi; path = fi.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC25156E0A62E9BA00C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fi; path = fi.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC2515710A62E9C100C0C7C3 /* fi */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = fi; path = fi.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC2516720A6318E000C0C7C3 /* pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pl; path = pl.lproj/Credits.html; sourceTree = "<group>"; };
+		DC2516770A63190A00C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pl; path = pl.lproj/donate.gif; sourceTree = "<group>"; };
+		DC25167A0A63191C00C0C7C3 /* pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC25167D0A63192E00C0C7C3 /* pl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC2516800A63194000C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC2516830A63195200C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC2516860A63195F00C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC2516890A63197400C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pl; path = pl.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC2516980A63198700C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pl; path = pl.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC2516A70A63199900C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pl; path = pl.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC2516B20A6319AA00C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pl; path = pl.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC2516BD0A6319BD00C0C7C3 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pl; path = pl.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC25ED28099B79B300399403 /* bg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC25ED2B099B79BE00399403 /* bg */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = bg; path = bg.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC25ED2E099B79CA00399403 /* bg */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = bg; path = bg.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC25ED31099B79D800399403 /* bg */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = bg; path = bg.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC2E2CD50B59A393001ABCB5 /* RHDateToStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RHDateToStringTransformer.h; sourceTree = "<group>"; };
+		DC2E2CD60B59A393001ABCB5 /* RHDateToStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RHDateToStringTransformer.m; sourceTree = "<group>"; };
+		DC2E2CDF0B59A619001ABCB5 /* SoftwareUpdate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoftwareUpdate.png; sourceTree = "<group>"; };
+		DC2E2DEE0B59AB35001ABCB5 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		DC318E4D0BE9F2C700983DB9 /* hu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = hu; path = hu.lproj/Credits.html; sourceTree = "<group>"; };
+		DC318E500BE9F2D200983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hu; path = hu.lproj/donate.gif; sourceTree = "<group>"; };
+		DC318E530BE9F2DA00983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC318E560BE9F2E300983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC318E590BE9F2EB00983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC318E5C0BE9F2F200983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC318E5F0BE9F2F900983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC318E620BE9F30000983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = hu; path = hu.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC318E650BE9F30900983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = hu; path = hu.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC318E680BE9F31100983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = hu; path = hu.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC318E6B0BE9F31800983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = hu; path = hu.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC318E6E0BE9F31F00983DB9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = hu; path = hu.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC321DB109D0F66B007055E5 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = nl; path = nl.lproj/Credits.html; sourceTree = "<group>"; };
+		DC321DB609D0F679007055E5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = nl; path = nl.lproj/donate.gif; sourceTree = "<group>"; };
+		DC321DB909D0F684007055E5 /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC321DBC09D0F691007055E5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC321DBF09D0F69B007055E5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC321DC209D0F6B7007055E5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = nl; path = nl.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC337C9706AD2C9D0058AEBE /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		DC337C9806AD2C9D0058AEBE /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		DC48EBFA0B6C80C900D92D76 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		DC52D18F0862AC93004D81B2 /* trayIconBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trayIconBlack.png; path = images/trayIconBlack.png; sourceTree = "<group>"; };
+		DC62B7F5098C4F6B006856D3 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC63574A0A68D1B600C3B364 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ru; path = ru.lproj/Credits.html; sourceTree = "<group>"; };
+		DC63574D0A68D1C100C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ru; path = ru.lproj/donate.gif; sourceTree = "<group>"; };
+		DC6357500A68D1CD00C3B364 /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC6357530A68D1D700C3B364 /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC6357560A68D1E200C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC6357590A68D1EB00C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC63575C0A68D1FB00C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC63575F0A68D20800C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC6357620A68D21500C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC6357650A68D21F00C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC6357680A68D22700C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC63576B0A68D23100C3B364 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ru; path = ru.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC64662C07F021FD000F4812 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC66622E07B5753200D67633 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
+		DC6C828907F9693400933C45 /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
+		DC6C828A07F9693400933C45 /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
+		DC6C82A307F96A5000933C45 /* RoundedWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RoundedWindow.h; sourceTree = "<group>"; };
+		DC6C82A407F96A5000933C45 /* RoundedWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RoundedWindow.m; sourceTree = "<group>"; };
+		DC6CC73C0A300A9C00CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pt; path = pt.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC6CC73F0A300AB200CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pt; path = pt.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC6CC7400A300AC200CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pt; path = pt.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC6CC7430A300AD500CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pt; path = pt.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC6CC7440A300AE600CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pt; path = pt.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC6CC7450A300AF700CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC6CC7460A300B0500CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC6CC7470A300B1600CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC6CC7480A300B2500CFB6EF /* pt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC6CC7490A300B3600CFB6EF /* pt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC6CC74A0A300B4600CFB6EF /* pt */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pt; path = pt.lproj/donate.gif; sourceTree = "<group>"; };
+		DC6CC74B0A300B5600CFB6EF /* pt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pt; path = pt.lproj/Credits.html; sourceTree = "<group>"; };
+		DC7410850A3ECAB200CEB97F /* MyApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyApplication.h; sourceTree = "<group>"; };
+		DC7410860A3ECAB200CEB97F /* MyApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplication.m; sourceTree = "<group>"; };
+		DC7410AF0A3ECF0600CEB97F /* AlarmClock.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; path = AlarmClock.sdef; sourceTree = "<group>"; };
+		DC79559009D0FC8300642CA2 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = es; path = es.lproj/Credits.html; sourceTree = "<group>"; };
+		DC79559709D0FD6C00642CA2 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = es; path = es.lproj/donate.gif; sourceTree = "<group>"; };
+		DC7955BC09D1283E00642CA2 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = French; path = French.lproj/Credits.html; sourceTree = "<group>"; };
+		DC7955BF09D129E700642CA2 /* French */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = French; path = French.lproj/donate.gif; sourceTree = "<group>"; };
+		DC7955DA09D12C5700642CA2 /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = da; path = da.lproj/Credits.html; sourceTree = "<group>"; };
+		DC7955DF09D12C7B00642CA2 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = da; path = da.lproj/donate.gif; sourceTree = "<group>"; };
+		DC79560709D12E0E00642CA2 /* bg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bg; path = bg.lproj/Credits.html; sourceTree = "<group>"; };
+		DC79560A09D12E1900642CA2 /* bg */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bg; path = bg.lproj/donate.gif; sourceTree = "<group>"; };
+		DC79562909D12F7900642CA2 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = zh_TW; path = zh_TW.lproj/donate.gif; sourceTree = "<group>"; };
+		DC79562C09D12F8F00642CA2 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = zh_TW; path = zh_TW.lproj/Credits.html; sourceTree = "<group>"; };
+		DC80A65709E372E900476694 /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = it; path = it.lproj/Credits.html; sourceTree = "<group>"; };
+		DC80A65A09E372F100476694 /* it */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = it; path = it.lproj/donate.gif; sourceTree = "<group>"; };
+		DC80A65F09E3731900476694 /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC80A66209E3732500476694 /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = it; path = it.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC80A66509E3732E00476694 /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = it; path = it.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC80A66809E3733600476694 /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = it; path = it.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC81FAB9077E02A500F0C1C6 /* CalendarAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarAdditions.h; sourceTree = "<group>"; };
+		DC81FABA077E02A500F0C1C6 /* CalendarAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarAdditions.m; sourceTree = "<group>"; };
+		DC86E2090AB60B80009E80D0 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Japanese; path = Japanese.lproj/Credits.html; sourceTree = "<group>"; };
+		DC86E20C0AB60B8B009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Japanese; path = Japanese.lproj/donate.gif; sourceTree = "<group>"; };
+		DC86E20F0AB60B96009E80D0 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC86E2120AB60BAC009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC86E2150AB60BB8009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC86E2160AB60BC4009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC86E2170AB60BCE009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC86E2180AB60BD7009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC86E2190AB60BE3009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC86E21A0AB60BEC009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC86E21B0AB60BFD009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC86E21C0AB60C07009E80D0 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DC87837109CF2E18006E78B4 /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC87837409CF2E2A006E78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC87837709CF2E36006E78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC87837A09CF2E48006E78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = es; path = es.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC8CA6C4068E026F00F1BB2E /* Prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefs.h; sourceTree = "<group>"; };
+		DC8CA6C5068E026F00F1BB2E /* Prefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prefs.m; sourceTree = "<group>"; };
+		DC8FAFE706F57A76005B5B92 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC8FAFE906F57B45005B5B92 /* AlarmController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AlarmController.h; sourceTree = "<group>"; };
+		DC8FAFEA06F57B45005B5B92 /* AlarmController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AlarmController.m; sourceTree = "<group>"; };
+		DC97615B09BCCB2600089A08 /* RHAliasHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAliasHandler.h; sourceTree = "<group>"; };
+		DC97615C09BCCB2600089A08 /* RHAliasHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAliasHandler.m; sourceTree = "<group>"; };
+		DC9E79580C28F0A200D815DF /* el */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = el; path = el.lproj/Credits.html; sourceTree = "<group>"; };
+		DC9E795B0C28F0EC00D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = el; path = el.lproj/donate.gif; sourceTree = "<group>"; };
+		DC9E795E0C28F0F800D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC9E79610C28F2A000D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DC9E79640C28F2AB00D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DC9E79670C28F2B500D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DC9E796A0C28F2BE00D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DC9E796D0C28F2CA00D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = el; path = el.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DC9E79700C28F2D500D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = el; path = el.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DC9E79730C28F2DE00D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = el; path = el.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DC9E79760C28F2E700D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = el; path = el.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DC9E79790C28F2F100D815DF /* el */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = el; path = el.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DCA0B3B707B0566900004706 /* AlarmTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmTasks.h; sourceTree = "<group>"; };
+		DCA0B3B807B0566900004706 /* AlarmTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmTasks.m; sourceTree = "<group>"; };
+		DCA0B4BC07B071F800004706 /* helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helper.m; sourceTree = "<group>"; };
+		DCA0B4CD07B072D500004706 /* helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA0B4D907B0732C00004706 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		DCA0B4E207B074A500004706 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		DCA36E6A0997B884002813A5 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCA36E6D0997B89A002813A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DCA36E700997B8AC002813A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DCA36E730997B8BF002813A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DCB385020AEABC680047D654 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = images/moon.png; sourceTree = "<group>"; };
+		DCB385030AEABC680047D654 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = images/sun.png; sourceTree = "<group>"; };
+		DCBB422B09A8805B00305551 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		DCBDF4C30B54274F00407A6C /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = sv; path = sv.lproj/Credits.html; sourceTree = "<group>"; };
+		DCBDF4C60B54275A00407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sv; path = sv.lproj/donate.gif; sourceTree = "<group>"; };
+		DCBDF4C90B54276600407A6C /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCBDF4CC0B54276C00407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCBDF4CF0B54277300407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCBDF4D20B54277B00407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DCBDF4D50B54278100407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DCBDF4D80B54278900407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DCBDF4DB0B54279000407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DCBDF4DE0B54279600407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DCBDF4E10B54279D00407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DCBDF4E40B5427A400407A6C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DCBDF7400B54801900407A6C /* iTunesAudiobooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesAudiobooks.png; sourceTree = "<group>"; };
+		DCBDF7410B54801900407A6C /* iTunesFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesFolder.png; sourceTree = "<group>"; };
+		DCBDF7420B54801900407A6C /* iTunesLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesLibrary.png; sourceTree = "<group>"; };
+		DCBDF7430B54801900407A6C /* iTunesMovies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesMovies.png; sourceTree = "<group>"; };
+		DCBDF7440B54801900407A6C /* iTunesMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesMusic.png; sourceTree = "<group>"; };
+		DCBDF7450B54801900407A6C /* iTunesPartyShuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesPartyShuffle.png; sourceTree = "<group>"; };
+		DCBDF7460B54801900407A6C /* iTunesPlaylist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesPlaylist.png; sourceTree = "<group>"; };
+		DCBDF7470B54801900407A6C /* iTunesPodcasts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesPodcasts.png; sourceTree = "<group>"; };
+		DCBDF7480B54801900407A6C /* iTunesPurchasedMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesPurchasedMusic.png; sourceTree = "<group>"; };
+		DCBDF7490B54801900407A6C /* iTunesSmartPlaylist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesSmartPlaylist.png; sourceTree = "<group>"; };
+		DCBDF74A0B54801900407A6C /* iTunesTVShows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesTVShows.png; sourceTree = "<group>"; };
+		DCBDF74B0B54801900407A6C /* iTunesVideos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesVideos.png; sourceTree = "<group>"; };
+		DCBDF75F0B54805100407A6C /* Advanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Advanced.png; sourceTree = "<group>"; };
+		DCBDF7600B54805100407A6C /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
+		DCBDF7610B54805100407A6C /* Sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sound.png; sourceTree = "<group>"; };
+		DCC72E7A07F4F4B200E9B982 /* Changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
+		DCC9593B0C433E03000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cs; path = cs.lproj/donate.gif; sourceTree = "<group>"; };
+		DCC9593E0C433E15000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCC9593F0C433E1F000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCC959400C433E28000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCC959410C433E32000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/TimerWindow.strings; sourceTree = "<group>"; };
+		DCC959420C433E3C000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/StopwatchWindow.strings; sourceTree = "<group>"; };
+		DCC959430C433E4B000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DCC959440C433E56000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DCC959450C433E60000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DCC959460C433E6B000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DCC959470C433E74000F0437 /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/StopwatchWindow.nib; sourceTree = "<group>"; };
+		DCCE276907BF0EC900A0851D /* PrefsController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PrefsController.h; sourceTree = "<group>"; };
+		DCCE276A07BF0EC900A0851D /* PrefsController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PrefsController.m; sourceTree = "<group>"; };
+		DCCE2A8A07C32CBB00A0851D /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
+		DCCF257F0A9A8C5C003DD8A4 /* trayIconBlackAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trayIconBlackAlert.png; path = images/trayIconBlackAlert.png; sourceTree = "<group>"; };
+		DCCF25980A9A8C92003DD8A4 /* trayIconGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trayIconGray.png; path = images/trayIconGray.png; sourceTree = "<group>"; };
+		DCD39B830A19D70400137959 /* RoundedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedController.h; sourceTree = "<group>"; };
+		DCDDDFD40A0E0B24008E5191 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFD60A0E0B45008E5191 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFD70A0E0B58008E5191 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFD80A0E0B66008E5191 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFD90A0E0B78008E5191 /* bg */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFDA0A0E0B85008E5191 /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFE10A0E0D39008E5191 /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFE80A0E0EB0008E5191 /* nl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFE90A0E1178008E5191 /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDDFEA0A0E129C008E5191 /* he */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/AlarmEditor.strings; sourceTree = "<group>"; };
+		DCDDE0140A0E1A76008E5191 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE02D0A0E1CB4008E5191 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE02E0A0E1D84008E5191 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE03B0A0F16DF008E5191 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE03C0A0F17B0008E5191 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE03D0A0F184F008E5191 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE03E0A0F19B6008E5191 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE03F0A0F1ACF008E5191 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE0400A0F1B6D008E5191 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE0410A0F1D7A008E5191 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/AlarmWindow.strings; sourceTree = "<group>"; };
+		DCDDE0440A0F2283008E5191 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TimerWindow.nib; sourceTree = "<group>"; };
+		DCDDE0530A0F24E5008E5191 /* TimerController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		DCDDE0540A0F24E5008E5191 /* TimerController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+		DCDDE4630A105369008E5191 /* defaultAlarm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = defaultAlarm.m4a; path = sounds/defaultAlarm.m4a; sourceTree = "<group>"; };
+		DCDDE4910A10693A008E5191 /* defaultTimer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = defaultTimer.m4a; path = sounds/defaultTimer.m4a; sourceTree = "<group>"; };
+		DCE203F10998A32000B764E0 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DCE203F40998A32A00B764E0 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		DCE203F70998A33800B764E0 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/AlarmWindow.nib; sourceTree = "<group>"; };
+		DCE2042A0998A90600B764E0 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = German; path = German.lproj/Credits.html; sourceTree = "<group>"; };
+		DCE2044D0998AACD00B764E0 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = English; path = English.lproj/donate.gif; sourceTree = "<group>"; };
+		DCE204530998AADF00B764E0 /* German */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = German; path = German.lproj/donate.gif; sourceTree = "<group>"; };
+		DCE285A609A8932D0053FE70 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCEAE98707DC41C9007FE65C /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		DCEAE98807DC41C9007FE65C /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		DCEAE99E07DC4624007FE65C /* CalendarBack.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CalendarBack.tiff; path = images/CalendarBack.tiff; sourceTree = "<group>"; };
+		DCEAEA6407E0495D007FE65C /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AlarmEditor.nib; sourceTree = "<group>"; };
+		DCEAEA6907E04996007FE65C /* EditorController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EditorController.m; sourceTree = "<group>"; };
+		DCEAEA6A07E04996007FE65C /* EditorController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EditorController.h; sourceTree = "<group>"; };
+		DCEAEB9907E16728007FE65C /* AlarmScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmScheduler.h; sourceTree = "<group>"; };
+		DCEAEB9A07E16728007FE65C /* AlarmScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmScheduler.m; sourceTree = "<group>"; };
+		DCEAEC1407E177C8007FE65C /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		DCEAEC1507E177C8007FE65C /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+		DCEAED3507E19FF4007FE65C /* Date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Date.png; path = images/Date.png; sourceTree = "<group>"; };
+		DCEAED6107E1A530007FE65C /* play.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = play.tif; path = images/play.tif; sourceTree = "<group>"; };
+		DCEAED6207E1A530007FE65C /* stop.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = stop.tif; path = images/stop.tif; sourceTree = "<group>"; };
+		DCF5119D09B4835900052799 /* trayIconColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trayIconColor.png; path = images/trayIconColor.png; sourceTree = "<group>"; };
+		DCF5119E09B4835900052799 /* trayIconColorAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trayIconColorAlert.png; path = images/trayIconColorAlert.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				DCA0B4DB07B0732C00004706 /* IOKit.framework in Frameworks */,
+				DCA0B4E307B074A500004706 /* Security.framework in Frameworks */,
+				DCBB422C09A8805B00305551 /* QTKit.framework in Frameworks */,
+				DC092FE809A9806C004B788B /* CoreAudio.framework in Frameworks */,
+				DC2E2DEF0B59AB35001ABCB5 /* Sparkle.framework in Frameworks */,
+				DC48EBFB0B6C80C900D92D76 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA0B4CB07B072D500004706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA0B4D607B072FF00004706 /* Foundation.framework in Frameworks */,
+				DCA0B4DA07B0732C00004706 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CA6C4068E026F00F1BB2E /* Prefs.h */,
+				DC8CA6C5068E026F00F1BB2E /* Prefs.m */,
+				DCEAEB9907E16728007FE65C /* AlarmScheduler.h */,
+				DCEAEB9A07E16728007FE65C /* AlarmScheduler.m */,
+				DCEAEC1407E177C8007FE65C /* Alarm.h */,
+				DCEAEC1507E177C8007FE65C /* Alarm.m */,
+				DCA0B3B707B0566900004706 /* AlarmTasks.h */,
+				DCA0B3B807B0566900004706 /* AlarmTasks.m */,
+			);
+			name = "Core Classes";
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				DCBB422B09A8805B00305551 /* QTKit.framework */,
+				DC48EBFA0B6C80C900D92D76 /* QuickTime.framework */,
+				DCA0B4D907B0732C00004706 /* IOKit.framework */,
+				DCA0B4E207B074A500004706 /* Security.framework */,
+				DC092FE709A9806C004B788B /* CoreAudio.framework */,
+				DC2E2DEE0B59AB35001ABCB5 /* Sparkle.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Alarm Clock.app */,
+				DCA0B4CD07B072D500004706 /* helper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				DC8CA6B0068DFE9B00F1BB2E /* Notes */,
+				080E96DDFE201D6D7F000001 /* Core Classes */,
+				DC0BEF8009C8011C00C89A78 /* MainMenu.nib */,
+				DC1013DB09D2AF4A00D84FD8 /* WindowManager */,
+				DC12349D06D6317F009CD984 /* AlarmEditor.nib */,
+				DCD39B9C0A19DA7300137959 /* RoundedWindow */,
+				DC0BEF8109C8015C00C89A78 /* AlarmWindow.nib */,
+				DC1177E20A17017F0096B086 /* TransparentWindow */,
+				DCDDE06E0A0F2513008E5191 /* TimerWindow */,
+				DC1177F80A1703970096B086 /* StopwatchWindow */,
+				DC97619409BD11F600089A08 /* iTunes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AlarmClock;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0B4BC07B071F800004706 /* helper.m */,
+				DC10140409D340AB00D84FD8 /* AppleRemote.h */,
+				DC10140509D340AB00D84FD8 /* AppleRemote.m */,
+				DC97615B09BCCB2600089A08 /* RHAliasHandler.h */,
+				DC97615C09BCCB2600089A08 /* RHAliasHandler.m */,
+				DC2E2CD50B59A393001ABCB5 /* RHDateToStringTransformer.h */,
+				DC2E2CD60B59A393001ABCB5 /* RHDateToStringTransformer.m */,
+				DC81FAB9077E02A500F0C1C6 /* CalendarAdditions.h */,
+				DC81FABA077E02A500F0C1C6 /* CalendarAdditions.m */,
+				DC092FA409A97E17004B788B /* MTCoreAudioDevice.h */,
+				DC092FA509A97E17004B788B /* MTCoreAudioDevice.m */,
+				32CA4F630368D1EE00C91783 /* AlarmClock_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				DC7410850A3ECAB200CEB97F /* MyApplication.h */,
+				DC7410860A3ECAB200CEB97F /* MyApplication.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCB385020AEABC680047D654 /* moon.png */,
+				DCB385030AEABC680047D654 /* sun.png */,
+				DCDDE4910A10693A008E5191 /* defaultTimer.m4a */,
+				DCDDE4630A105369008E5191 /* defaultAlarm.m4a */,
+				DCEAED6107E1A530007FE65C /* play.tif */,
+				DCEAED6207E1A530007FE65C /* stop.tif */,
+				DCEAE99E07DC4624007FE65C /* CalendarBack.tiff */,
+				DCBDF73F0B54801900407A6C /* Playlist Icons */,
+				DCBDF75E0B54805100407A6C /* Preferences Icons */,
+				DC121FBD06BA2D4100132FBF /* AlarmClock.icns */,
+				DC7410AF0A3ECF0600CEB97F /* AlarmClock.sdef */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				DCDB0F6109876D9900FE4707 /* InfoPlist.strings */,
+				DCE204280998A8FD00B764E0 /* Credits.html */,
+				DCE204510998AAD700B764E0 /* donate.gif */,
+				DCDB0F6C09876E0A00FE4707 /* Localizable.strings */,
+				DCDDDFD30A0E0B24008E5191 /* AlarmEditor.strings */,
+				DCDDE0130A0E1A76008E5191 /* AlarmWindow.strings */,
+				DC117AB70A188C5D0096B086 /* TimerWindow.strings */,
+				DC117AC30A188D880096B086 /* StopwatchWindow.strings */,
+				DCDB0F7A09876E3400FE4707 /* MainMenu.nib */,
+				DCDB0F7409876E2100FE4707 /* AlarmEditor.nib */,
+				DC8FAFE606F57A76005B5B92 /* AlarmWindow.nib */,
+				DCDDE0430A0F2283008E5191 /* TimerWindow.nib */,
+				DC117AAC0A1888FE0096B086 /* StopwatchWindow.nib */,
+				DCCF25980A9A8C92003DD8A4 /* trayIconGray.png */,
+				DC52D18F0862AC93004D81B2 /* trayIconBlack.png */,
+				DCCF257F0A9A8C5C003DD8A4 /* trayIconBlackAlert.png */,
+				DCF5119D09B4835900052799 /* trayIconColor.png */,
+				DCF5119E09B4835900052799 /* trayIconColorAlert.png */,
+				DCEAED3507E19FF4007FE65C /* Date.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0BEF8009C8011C00C89A78 /* MainMenu.nib */ = {
+			isa = PBXGroup;
+			children = (
+				DC337C9806AD2C9D0058AEBE /* MenuController.h */,
+				DC337C9706AD2C9D0058AEBE /* MenuController.m */,
+				DCCE276907BF0EC900A0851D /* PrefsController.h */,
+				DCCE276A07BF0EC900A0851D /* PrefsController.m */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		DC0BEF8109C8015C00C89A78 /* AlarmWindow.nib */ = {
+			isa = PBXGroup;
+			children = (
+				DC8FAFE906F57B45005B5B92 /* AlarmController.h */,
+				DC8FAFEA06F57B45005B5B92 /* AlarmController.m */,
+			);
+			name = AlarmWindow.nib;
+			sourceTree = "<group>";
+		};
+		DC1013DB09D2AF4A00D84FD8 /* WindowManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC10105209D25A4900D84FD8 /* WindowManager.h */,
+				DC10105309D25A4900D84FD8 /* WindowManager.m */,
+			);
+			name = WindowManager;
+			sourceTree = "<group>";
+		};
+		DC1177E20A17017F0096B086 /* TransparentWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DC1177790A16FB400096B086 /* TransparentController.h */,
+				DC11777C0A16FB400096B086 /* TransparentWindow.h */,
+				DC11777D0A16FB400096B086 /* TransparentWindow.m */,
+				DC11777A0A16FB400096B086 /* TransparentView.h */,
+				DC11777B0A16FB400096B086 /* TransparentView.m */,
+			);
+			name = TransparentWindow;
+			sourceTree = "<group>";
+		};
+		DC1177F80A1703970096B086 /* StopwatchWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DC1177F40A1703800096B086 /* StopwatchController.h */,
+				DC1177F50A1703800096B086 /* StopwatchController.m */,
+			);
+			name = StopwatchWindow;
+			sourceTree = "<group>";
+		};
+		DC12349D06D6317F009CD984 /* AlarmEditor.nib */ = {
+			isa = PBXGroup;
+			children = (
+				DCEAEA6A07E04996007FE65C /* EditorController.h */,
+				DCEAEA6907E04996007FE65C /* EditorController.m */,
+				DCEAE98707DC41C9007FE65C /* CalendarView.h */,
+				DCEAE98807DC41C9007FE65C /* CalendarView.m */,
+			);
+			name = AlarmEditor.nib;
+			sourceTree = "<group>";
+		};
+		DC8CA6B0068DFE9B00F1BB2E /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				DCCE2A8A07C32CBB00A0851D /* Todo.txt */,
+				DCC72E7A07F4F4B200E9B982 /* Changes.txt */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		DC97619409BD11F600089A08 /* iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				DC13880309ACDE72006ECAB5 /* ITunesData.h */,
+				DC13880409ACDE72006ECAB5 /* ITunesData.m */,
+				DC13882E09ACE206006ECAB5 /* ITunesTable.h */,
+				DC13882F09ACE206006ECAB5 /* ITunesTable.m */,
+				DC1387E909ACD8AD006ECAB5 /* ITunesPlayer.h */,
+				DC1387EA09ACD8AD006ECAB5 /* ITunesPlayer.m */,
+			);
+			name = iTunes;
+			sourceTree = "<group>";
+		};
+		DCBDF73F0B54801900407A6C /* Playlist Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDF7400B54801900407A6C /* iTunesAudiobooks.png */,
+				DCBDF7410B54801900407A6C /* iTunesFolder.png */,
+				DCBDF7420B54801900407A6C /* iTunesLibrary.png */,
+				DCBDF7430B54801900407A6C /* iTunesMovies.png */,
+				DCBDF7440B54801900407A6C /* iTunesMusic.png */,
+				DCBDF7450B54801900407A6C /* iTunesPartyShuffle.png */,
+				DCBDF7460B54801900407A6C /* iTunesPlaylist.png */,
+				DCBDF7470B54801900407A6C /* iTunesPodcasts.png */,
+				DCBDF7480B54801900407A6C /* iTunesPurchasedMusic.png */,
+				DCBDF7490B54801900407A6C /* iTunesSmartPlaylist.png */,
+				DCBDF74A0B54801900407A6C /* iTunesTVShows.png */,
+				DCBDF74B0B54801900407A6C /* iTunesVideos.png */,
+			);
+			name = "Playlist Icons";
+			path = "images/Playlist Icons";
+			sourceTree = "<group>";
+		};
+		DCBDF75E0B54805100407A6C /* Preferences Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DCBDF7600B54805100407A6C /* General.png */,
+				DCBDF7610B54805100407A6C /* Sound.png */,
+				DCBDF75F0B54805100407A6C /* Advanced.png */,
+				DC2E2CDF0B59A619001ABCB5 /* SoftwareUpdate.png */,
+			);
+			name = "Preferences Icons";
+			path = "images/Preferences Icons";
+			sourceTree = "<group>";
+		};
+		DCD39B9C0A19DA7300137959 /* RoundedWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DCD39B830A19D70400137959 /* RoundedController.h */,
+				DC6C82A307F96A5000933C45 /* RoundedWindow.h */,
+				DC6C82A407F96A5000933C45 /* RoundedWindow.m */,
+				DC6C828A07F9693400933C45 /* RoundedView.h */,
+				DC6C828907F9693400933C45 /* RoundedView.m */,
+			);
+			name = RoundedWindow;
+			sourceTree = "<group>";
+		};
+		DCDDE06E0A0F2513008E5191 /* TimerWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DCDDE0530A0F24E5008E5191 /* TimerController.h */,
+				DCDDE0540A0F24E5008E5191 /* TimerController.m */,
+			);
+			name = TimerWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1107280486CEB800E47090 /* AlarmClock_Prefix.pch in Headers */,
+				DC8CA6C6068E026F00F1BB2E /* Prefs.h in Headers */,
+				DC337C9A06AD2C9D0058AEBE /* MenuController.h in Headers */,
+				DC8FAFEB06F57B45005B5B92 /* AlarmController.h in Headers */,
+				DC81FABB077E02A500F0C1C6 /* CalendarAdditions.h in Headers */,
+				DCA0B3B907B0566900004706 /* AlarmTasks.h in Headers */,
+				DCCE276B07BF0EC900A0851D /* PrefsController.h in Headers */,
+				DCEAE98907DC41C9007FE65C /* CalendarView.h in Headers */,
+				DCEAEA6C07E04996007FE65C /* EditorController.h in Headers */,
+				DCEAEB9B07E16728007FE65C /* AlarmScheduler.h in Headers */,
+				DCEAEC1607E177C8007FE65C /* Alarm.h in Headers */,
+				DC6C828C07F9693400933C45 /* RoundedView.h in Headers */,
+				DC6C82A507F96A5000933C45 /* RoundedWindow.h in Headers */,
+				DC092FA609A97E17004B788B /* MTCoreAudioDevice.h in Headers */,
+				DC1387EB09ACD8AD006ECAB5 /* ITunesPlayer.h in Headers */,
+				DC13880509ACDE72006ECAB5 /* ITunesData.h in Headers */,
+				DC13883009ACE206006ECAB5 /* ITunesTable.h in Headers */,
+				DC97615D09BCCB2700089A08 /* RHAliasHandler.h in Headers */,
+				DC10105409D25A4900D84FD8 /* WindowManager.h in Headers */,
+				DC10140609D340AB00D84FD8 /* AppleRemote.h in Headers */,
+				DCDDE0550A0F24E5008E5191 /* TimerController.h in Headers */,
+				DC11777E0A16FB400096B086 /* TransparentController.h in Headers */,
+				DC11777F0A16FB400096B086 /* TransparentView.h in Headers */,
+				DC1177810A16FB400096B086 /* TransparentWindow.h in Headers */,
+				DC1177F60A1703800096B086 /* StopwatchController.h in Headers */,
+				DCD39B840A19D70400137959 /* RoundedController.h in Headers */,
+				DC7410870A3ECAB200CEB97F /* MyApplication.h in Headers */,
+				DC2E2CD70B59A393001ABCB5 /* RHDateToStringTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD949B70856C4500026EC8A /* Build configuration list for PBXNativeTarget "AlarmClock" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				DCD94A620856CF5B0026EC8A /* CopyFiles */,
+				DC2E2E030B59AB59001ABCB5 /* Copy Internal Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD94A610856CF4E0026EC8A /* PBXTargetDependency */,
+			);
+			name = AlarmClock;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AlarmClock;
+			productReference = 8D1107320486CEB800E47090 /* Alarm Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA0B4CC07B072D500004706 /* helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD949BB0856C4500026EC8A /* Build configuration list for PBXNativeTarget "helper" */;
+			buildPhases = (
+				DCA0B4CA07B072D500004706 /* Sources */,
+				DCA0B4CB07B072D500004706 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helper;
+			productName = helper;
+			productReference = DCA0B4CD07B072D500004706 /* helper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DCD949C30856C4500026EC8A /* Build configuration list for PBXProject "AlarmClock" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+				es,
+				de,
+				el,
+				bg,
+				zh_TW,
+				da,
+				nl,
+				it,
+				he,
+				pt_BR,
+				pt,
+				Polish,
+				fi,
+				pl,
+				ru,
+				sv,
+				hu,
+				cs,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AlarmClock */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA0B4CC07B072D500004706 /* helper */,
+				8D1107260486CEB800E47090 /* AlarmClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDB0F7B09876E3400FE4707 /* MainMenu.nib in Resources */,
+				DCDB0F6209876D9900FE4707 /* InfoPlist.strings in Resources */,
+				DC121FBE06BA2D4100132FBF /* AlarmClock.icns in Resources */,
+				DC8FAFE806F57A76005B5B92 /* AlarmWindow.nib in Resources */,
+				DCE204290998A8FD00B764E0 /* Credits.html in Resources */,
+				DCEAE99F07DC4624007FE65C /* CalendarBack.tiff in Resources */,
+				DCDB0F7509876E2100FE4707 /* AlarmEditor.nib in Resources */,
+				DCEAED3607E19FF4007FE65C /* Date.png in Resources */,
+				DCEAED6307E1A530007FE65C /* play.tif in Resources */,
+				DCEAED6407E1A530007FE65C /* stop.tif in Resources */,
+				DCDB0F6D09876E0A00FE4707 /* Localizable.strings in Resources */,
+				DC52D1900862AC93004D81B2 /* trayIconBlack.png in Resources */,
+				DCE204520998AAD700B764E0 /* donate.gif in Resources */,
+				DCF5119F09B4835900052799 /* trayIconColor.png in Resources */,
+				DCF511A009B4835900052799 /* trayIconColorAlert.png in Resources */,
+				DCDDDFD50A0E0B24008E5191 /* AlarmEditor.strings in Resources */,
+				DCDDE0150A0E1A76008E5191 /* AlarmWindow.strings in Resources */,
+				DCDDE0450A0F2283008E5191 /* TimerWindow.nib in Resources */,
+				DCDDE4640A105369008E5191 /* defaultAlarm.m4a in Resources */,
+				DCDDE4920A10693A008E5191 /* defaultTimer.m4a in Resources */,
+				DC117AAD0A1888FE0096B086 /* StopwatchWindow.nib in Resources */,
+				DC117AB90A188C5D0096B086 /* TimerWindow.strings in Resources */,
+				DC117AC50A188D880096B086 /* StopwatchWindow.strings in Resources */,
+				DC7410B00A3ECF0600CEB97F /* AlarmClock.sdef in Resources */,
+				DCCF25800A9A8C5C003DD8A4 /* trayIconBlackAlert.png in Resources */,
+				DCCF25990A9A8C92003DD8A4 /* trayIconGray.png in Resources */,
+				DCB385040AEABC680047D654 /* moon.png in Resources */,
+				DCB385050AEABC680047D654 /* sun.png in Resources */,
+				DCBDF74C0B54801900407A6C /* iTunesAudiobooks.png in Resources */,
+				DCBDF74D0B54801900407A6C /* iTunesFolder.png in Resources */,
+				DCBDF74E0B54801900407A6C /* iTunesLibrary.png in Resources */,
+				DCBDF74F0B54801900407A6C /* iTunesMovies.png in Resources */,
+				DCBDF7500B54801900407A6C /* iTunesMusic.png in Resources */,
+				DCBDF7510B54801900407A6C /* iTunesPartyShuffle.png in Resources */,
+				DCBDF7520B54801900407A6C /* iTunesPlaylist.png in Resources */,
+				DCBDF7530B54801900407A6C /* iTunesPodcasts.png in Resources */,
+				DCBDF7540B54801900407A6C /* iTunesPurchasedMusic.png in Resources */,
+				DCBDF7550B54801900407A6C /* iTunesSmartPlaylist.png in Resources */,
+				DCBDF7560B54801900407A6C /* iTunesTVShows.png in Resources */,
+				DCBDF7570B54801900407A6C /* iTunesVideos.png in Resources */,
+				DCBDF7620B54805100407A6C /* Advanced.png in Resources */,
+				DCBDF7630B54805100407A6C /* General.png in Resources */,
+				DCBDF7640B54805100407A6C /* Sound.png in Resources */,
+				DC2E2CE00B59A619001ABCB5 /* SoftwareUpdate.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				DC8CA6C7068E026F00F1BB2E /* Prefs.m in Sources */,
+				DC337C9906AD2C9D0058AEBE /* MenuController.m in Sources */,
+				DC8FAFEC06F57B45005B5B92 /* AlarmController.m in Sources */,
+				DC81FABC077E02A500F0C1C6 /* CalendarAdditions.m in Sources */,
+				DCA0B3BA07B0566900004706 /* AlarmTasks.m in Sources */,
+				DCCE276C07BF0EC900A0851D /* PrefsController.m in Sources */,
+				DCEAE98A07DC41C9007FE65C /* CalendarView.m in Sources */,
+				DCEAEA6B07E04996007FE65C /* EditorController.m in Sources */,
+				DCEAEB9C07E16728007FE65C /* AlarmScheduler.m in Sources */,
+				DCEAEC1707E177C8007FE65C /* Alarm.m in Sources */,
+				DC6C828B07F9693400933C45 /* RoundedView.m in Sources */,
+				DC6C82A607F96A5000933C45 /* RoundedWindow.m in Sources */,
+				DC092FA709A97E17004B788B /* MTCoreAudioDevice.m in Sources */,
+				DC1387EC09ACD8AD006ECAB5 /* ITunesPlayer.m in Sources */,
+				DC13880609ACDE72006ECAB5 /* ITunesData.m in Sources */,
+				DC13883109ACE206006ECAB5 /* ITunesTable.m in Sources */,
+				DC97615E09BCCB2700089A08 /* RHAliasHandler.m in Sources */,
+				DC10105509D25A4900D84FD8 /* WindowManager.m in Sources */,
+				DC10140709D340AB00D84FD8 /* AppleRemote.m in Sources */,
+				DCDDE0560A0F24E5008E5191 /* TimerController.m in Sources */,
+				DC1177800A16FB400096B086 /* TransparentView.m in Sources */,
+				DC1177820A16FB400096B086 /* TransparentWindow.m in Sources */,
+				DC1177F70A1703800096B086 /* StopwatchController.m in Sources */,
+				DC7410880A3ECAB200CEB97F /* MyApplication.m in Sources */,
+				DC2E2CD80B59A393001ABCB5 /* RHDateToStringTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA0B4CA07B072D500004706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA0B4D507B072EE00004706 /* helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD94A610856CF4E0026EC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA0B4CC07B072D500004706 /* helper */;
+			targetProxy = DCD94A600856CF4E0026EC8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC117AAC0A1888FE0096B086 /* StopwatchWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1177E30A17035A0096B086 /* English */,
+				DC117AAE0A18890B0096B086 /* zh_TW */,
+				DC117AAF0A18890F0096B086 /* French */,
+				DC117AB00A1889120096B086 /* German */,
+				DC117AB10A18891C0096B086 /* bg */,
+				DC117AB20A18891E0096B086 /* da */,
+				DC117AB30A1889210096B086 /* es */,
+				DC117AB40A1889240096B086 /* nl */,
+				DC117AB50A1889260096B086 /* it */,
+				DC117AB60A1889280096B086 /* he */,
+				DC6CC73C0A300A9C00CFB6EF /* pt */,
+				DC2516BD0A6319BD00C0C7C3 /* pl */,
+				DC2515710A62E9C100C0C7C3 /* fi */,
+				DC63576B0A68D23100C3B364 /* ru */,
+				DC86E21C0AB60C07009E80D0 /* Japanese */,
+				DCBDF4E40B5427A400407A6C /* sv */,
+				DC318E6E0BE9F31F00983DB9 /* hu */,
+				DC9E79790C28F2F100D815DF /* el */,
+				DCC959470C433E74000F0437 /* cs */,
+			);
+			name = StopwatchWindow.nib;
+			sourceTree = "<group>";
+		};
+		DC117AB70A188C5D0096B086 /* TimerWindow.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC117AB80A188C5D0096B086 /* English */,
+				DC117ABA0A188C890096B086 /* zh_TW */,
+				DC117ABB0A188CA10096B086 /* French */,
+				DC117ABC0A188CAC0096B086 /* German */,
+				DC117ABD0A188CB70096B086 /* bg */,
+				DC117ABE0A188CC30096B086 /* da */,
+				DC117ABF0A188CD00096B086 /* es */,
+				DC117AC00A188CE10096B086 /* nl */,
+				DC117AC10A188CF60096B086 /* it */,
+				DC117AC20A188D040096B086 /* he */,
+				DC6CC7460A300B0500CFB6EF /* pt */,
+				DC2516830A63195200C0C7C3 /* pl */,
+				DC25155F0A62E99800C0C7C3 /* fi */,
+				DC6357590A68D1EB00C3B364 /* ru */,
+				DC86E2160AB60BC4009E80D0 /* Japanese */,
+				DCBDF4D20B54277B00407A6C /* sv */,
+				DC318E5C0BE9F2F200983DB9 /* hu */,
+				DC9E79670C28F2B500D815DF /* el */,
+				DCC959410C433E32000F0437 /* cs */,
+			);
+			name = TimerWindow.strings;
+			sourceTree = "<group>";
+		};
+		DC117AC30A188D880096B086 /* StopwatchWindow.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC117AC40A188D880096B086 /* English */,
+				DC117AC60A188D9F0096B086 /* zh_TW */,
+				DC117AC70A188DB80096B086 /* French */,
+				DC117AC80A188DC50096B086 /* German */,
+				DC117AC90A188DD70096B086 /* bg */,
+				DC117ACA0A188DE40096B086 /* da */,
+				DC117ACB0A188DF00096B086 /* es */,
+				DC117ACC0A188E000096B086 /* nl */,
+				DC117ACD0A188E0C0096B086 /* it */,
+				DC117ACE0A188E1B0096B086 /* he */,
+				DC6CC7450A300AF700CFB6EF /* pt */,
+				DC2516860A63195F00C0C7C3 /* pl */,
+				DC2515620A62E99F00C0C7C3 /* fi */,
+				DC63575C0A68D1FB00C3B364 /* ru */,
+				DC86E2170AB60BCE009E80D0 /* Japanese */,
+				DCBDF4D50B54278100407A6C /* sv */,
+				DC318E5F0BE9F2F900983DB9 /* hu */,
+				DC9E796A0C28F2BE00D815DF /* el */,
+				DCC959420C433E3C000F0437 /* cs */,
+			);
+			name = StopwatchWindow.strings;
+			sourceTree = "<group>";
+		};
+		DC8FAFE606F57A76005B5B92 /* AlarmWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8FAFE706F57A76005B5B92 /* English */,
+				DC62B7F5098C4F6B006856D3 /* zh_TW */,
+				DCA36E730997B8BF002813A5 /* French */,
+				DCE203F70998A33800B764E0 /* German */,
+				DC25ED31099B79D800399403 /* bg */,
+				DC13879909AB846C006ECAB5 /* da */,
+				DC87837A09CF2E48006E78B4 /* es */,
+				DC321DC209D0F6B7007055E5 /* nl */,
+				DC80A66809E3733600476694 /* it */,
+				DC1E4F120A095B0100730CC4 /* he */,
+				DC6CC7400A300AC200CFB6EF /* pt */,
+				DC2516A70A63199900C0C7C3 /* pl */,
+				DC25156B0A62E9B300C0C7C3 /* fi */,
+				DC6357650A68D21F00C3B364 /* ru */,
+				DC86E21A0AB60BEC009E80D0 /* Japanese */,
+				DCBDF4DE0B54279600407A6C /* sv */,
+				DC318E680BE9F31100983DB9 /* hu */,
+				DC9E79730C28F2DE00D815DF /* el */,
+				DCC959450C433E60000F0437 /* cs */,
+			);
+			name = AlarmWindow.nib;
+			sourceTree = "<group>";
+		};
+		DCDB0F6109876D9900FE4707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCDB0F6C09876E0A00FE4707 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC64662C07F021FD000F4812 /* English */,
+				DC216156098C4F1F004658FC /* zh_TW */,
+				DCA36E6A0997B884002813A5 /* French */,
+				DCE285A609A8932D0053FE70 /* German */,
+				DC25ED28099B79B300399403 /* bg */,
+				DC13879009AB844A006ECAB5 /* da */,
+				DC87837109CF2E18006E78B4 /* es */,
+				DC321DB909D0F684007055E5 /* nl */,
+				DC80A65F09E3731900476694 /* it */,
+				DC1E4F090A095AE900730CC4 /* he */,
+				DC6CC7490A300B3600CFB6EF /* pt */,
+				DC25167A0A63191C00C0C7C3 /* pl */,
+				DC2515560A62E98200C0C7C3 /* fi */,
+				DC6357500A68D1CD00C3B364 /* ru */,
+				DC86E20F0AB60B96009E80D0 /* Japanese */,
+				DCBDF4C90B54276600407A6C /* sv */,
+				DC318E530BE9F2DA00983DB9 /* hu */,
+				DC9E795E0C28F0F800D815DF /* el */,
+				DCC9593E0C433E15000F0437 /* cs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DCDB0F7409876E2100FE4707 /* AlarmEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEAEA6407E0495D007FE65C /* English */,
+				DC216159098C4F2A004658FC /* zh_TW */,
+				DCA36E6D0997B89A002813A5 /* French */,
+				DCE203F10998A32000B764E0 /* German */,
+				DC25ED2B099B79BE00399403 /* bg */,
+				DC13879609AB8463006ECAB5 /* da */,
+				DC87837709CF2E36006E78B4 /* es */,
+				DC321DBF09D0F69B007055E5 /* nl */,
+				DC80A66509E3732E00476694 /* it */,
+				DC1E4F0F0A095AF900730CC4 /* he */,
+				DC6CC7430A300AD500CFB6EF /* pt */,
+				DC2516980A63198700C0C7C3 /* pl */,
+				DC2515680A62E9AD00C0C7C3 /* fi */,
+				DC6357620A68D21500C3B364 /* ru */,
+				DC86E2190AB60BE3009E80D0 /* Japanese */,
+				DCBDF4DB0B54279000407A6C /* sv */,
+				DC318E650BE9F30900983DB9 /* hu */,
+				DC9E79700C28F2D500D815DF /* el */,
+				DCC959440C433E56000F0437 /* cs */,
+			);
+			name = AlarmEditor.nib;
+			sourceTree = "<group>";
+		};
+		DCDB0F7A09876E3400FE4707 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				DC21615C098C4F35004658FC /* zh_TW */,
+				DCA36E700997B8AC002813A5 /* French */,
+				DCE203F40998A32A00B764E0 /* German */,
+				DC25ED2E099B79CA00399403 /* bg */,
+				DC13879309AB8454006ECAB5 /* da */,
+				DC87837409CF2E2A006E78B4 /* es */,
+				DC321DBC09D0F691007055E5 /* nl */,
+				DC80A66209E3732500476694 /* it */,
+				DC1E4F0C0A095AF100730CC4 /* he */,
+				DC6CC7440A300AE600CFB6EF /* pt */,
+				DC2516890A63197400C0C7C3 /* pl */,
+				DC2515650A62E9A600C0C7C3 /* fi */,
+				DC63575F0A68D20800C3B364 /* ru */,
+				DC86E2180AB60BD7009E80D0 /* Japanese */,
+				DCBDF4D80B54278900407A6C /* sv */,
+				DC318E620BE9F30000983DB9 /* hu */,
+				DC9E796D0C28F2CA00D815DF /* el */,
+				DCC959430C433E4B000F0437 /* cs */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		DCDDDFD30A0E0B24008E5191 /* AlarmEditor.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDDDFD40A0E0B24008E5191 /* English */,
+				DCDDDFD60A0E0B45008E5191 /* zh_TW */,
+				DCDDDFD70A0E0B58008E5191 /* French */,
+				DCDDDFD80A0E0B66008E5191 /* German */,
+				DCDDDFD90A0E0B78008E5191 /* bg */,
+				DCDDDFDA0A0E0B85008E5191 /* da */,
+				DCDDDFE10A0E0D39008E5191 /* es */,
+				DCDDDFE80A0E0EB0008E5191 /* nl */,
+				DCDDDFE90A0E1178008E5191 /* it */,
+				DCDDDFEA0A0E129C008E5191 /* he */,
+				DC6CC7480A300B2500CFB6EF /* pt */,
+				DC25167D0A63192E00C0C7C3 /* pl */,
+				DC2515590A62E98900C0C7C3 /* fi */,
+				DC6357530A68D1D700C3B364 /* ru */,
+				DC86E2120AB60BAC009E80D0 /* Japanese */,
+				DCBDF4CC0B54276C00407A6C /* sv */,
+				DC318E560BE9F2E300983DB9 /* hu */,
+				DC9E79610C28F2A000D815DF /* el */,
+				DCC9593F0C433E1F000F0437 /* cs */,
+			);
+			name = AlarmEditor.strings;
+			sourceTree = "<group>";
+		};
+		DCDDE0130A0E1A76008E5191 /* AlarmWindow.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDDE0140A0E1A76008E5191 /* English */,
+				DCDDE02D0A0E1CB4008E5191 /* zh_TW */,
+				DCDDE02E0A0E1D84008E5191 /* French */,
+				DCDDE03B0A0F16DF008E5191 /* German */,
+				DCDDE03C0A0F17B0008E5191 /* bg */,
+				DCDDE03D0A0F184F008E5191 /* da */,
+				DCDDE03E0A0F19B6008E5191 /* es */,
+				DCDDE03F0A0F1ACF008E5191 /* nl */,
+				DCDDE0400A0F1B6D008E5191 /* it */,
+				DCDDE0410A0F1D7A008E5191 /* he */,
+				DC6CC7470A300B1600CFB6EF /* pt */,
+				DC2516800A63194000C0C7C3 /* pl */,
+				DC25155C0A62E99000C0C7C3 /* fi */,
+				DC6357560A68D1E200C3B364 /* ru */,
+				DC86E2150AB60BB8009E80D0 /* Japanese */,
+				DCBDF4CF0B54277300407A6C /* sv */,
+				DC318E590BE9F2EB00983DB9 /* hu */,
+				DC9E79640C28F2AB00D815DF /* el */,
+				DCC959400C433E28000F0437 /* cs */,
+			);
+			name = AlarmWindow.strings;
+			sourceTree = "<group>";
+		};
+		DCDDE0430A0F2283008E5191 /* TimerWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDDE0440A0F2283008E5191 /* English */,
+				DC11782A0A170BD50096B086 /* zh_TW */,
+				DC11782B0A170BE90096B086 /* French */,
+				DC11782C0A170BED0096B086 /* German */,
+				DC11782D0A170BF00096B086 /* bg */,
+				DC11782E0A170BF30096B086 /* da */,
+				DC11782F0A170BF60096B086 /* es */,
+				DC1178300A170BF90096B086 /* nl */,
+				DC1178310A170BFB0096B086 /* it */,
+				DC1178320A170BFD0096B086 /* he */,
+				DC6CC73F0A300AB200CFB6EF /* pt */,
+				DC2516B20A6319AA00C0C7C3 /* pl */,
+				DC25156E0A62E9BA00C0C7C3 /* fi */,
+				DC6357680A68D22700C3B364 /* ru */,
+				DC86E21B0AB60BFD009E80D0 /* Japanese */,
+				DCBDF4E10B54279D00407A6C /* sv */,
+				DC318E6B0BE9F31800983DB9 /* hu */,
+				DC9E79760C28F2E700D815DF /* el */,
+				DCC959460C433E6B000F0437 /* cs */,
+			);
+			name = TimerWindow.nib;
+			sourceTree = "<group>";
+		};
+		DCE204280998A8FD00B764E0 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC66622E07B5753200D67633 /* English */,
+				DC79562C09D12F8F00642CA2 /* zh_TW */,
+				DC7955BC09D1283E00642CA2 /* French */,
+				DCE2042A0998A90600B764E0 /* German */,
+				DC79560709D12E0E00642CA2 /* bg */,
+				DC7955DA09D12C5700642CA2 /* da */,
+				DC79559009D0FC8300642CA2 /* es */,
+				DC321DB109D0F66B007055E5 /* nl */,
+				DC80A65709E372E900476694 /* it */,
+				DC1E4F030A095AD200730CC4 /* he */,
+				DC6CC74B0A300B5600CFB6EF /* pt */,
+				DC2516720A6318E000C0C7C3 /* pl */,
+				DC2515500A62E96200C0C7C3 /* fi */,
+				DC63574A0A68D1B600C3B364 /* ru */,
+				DC86E2090AB60B80009E80D0 /* Japanese */,
+				DCBDF4C30B54274F00407A6C /* sv */,
+				DC318E4D0BE9F2C700983DB9 /* hu */,
+				DC9E79580C28F0A200D815DF /* el */,
+				DC0B06200C433D9600763361 /* cs */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		DCE204510998AAD700B764E0 /* donate.gif */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE2044D0998AACD00B764E0 /* English */,
+				DC79562909D12F7900642CA2 /* zh_TW */,
+				DC7955BF09D129E700642CA2 /* French */,
+				DCE204530998AADF00B764E0 /* German */,
+				DC79560A09D12E1900642CA2 /* bg */,
+				DC7955DF09D12C7B00642CA2 /* da */,
+				DC79559709D0FD6C00642CA2 /* es */,
+				DC321DB609D0F679007055E5 /* nl */,
+				DC80A65A09E372F100476694 /* it */,
+				DC1E4F060A095ADB00730CC4 /* he */,
+				DC6CC74A0A300B4600CFB6EF /* pt */,
+				DC2516770A63190A00C0C7C3 /* pl */,
+				DC2515530A62E97900C0C7C3 /* fi */,
+				DC63574D0A68D1C100C3B364 /* ru */,
+				DC86E20C0AB60B8B009E80D0 /* Japanese */,
+				DCBDF4C60B54275A00407A6C /* sv */,
+				DC318E500BE9F2D200983DB9 /* hu */,
+				DC9E795B0C28F0EC00D815DF /* el */,
+				DCC9593B0C433E03000F0437 /* cs */,
+			);
+			name = donate.gif;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD949B80856C4500026EC8A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					/Users/robbie/Programs/AlarmClock,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmClock_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-Wno-selector";
+				PRODUCT_NAME = "Alarm Clock";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WARNING_LDFLAGS = "-Wno-selector";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DCD949B90856C4500026EC8A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Versions/A/Frameworks",
+					/Users/robbie/Programs/AlarmClock,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmClock_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-Wno-selector";
+				PRODUCT_NAME = "Alarm Clock";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WARNING_LDFLAGS = "-Wno-selector";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DCD949BC0856C4500026EC8A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = helper;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DCD949BD0856C4500026EC8A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = helper;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DCD949C40856C4500026EC8A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = all;
+			};
+			name = Development;
+		};
+		DCD949C50856C4500026EC8A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEAD_CODE_STRIPPING = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_DEBUGGING_SYMBOLS = default;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = all;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD949B70856C4500026EC8A /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD949B80856C4500026EC8A /* Development */,
+				DCD949B90856C4500026EC8A /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DCD949BB0856C4500026EC8A /* Build configuration list for PBXNativeTarget "helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD949BC0856C4500026EC8A /* Development */,
+				DCD949BD0856C4500026EC8A /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DCD949C30856C4500026EC8A /* Build configuration list for PBXProject "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD949C40856C4500026EC8A /* Development */,
+				DCD949C50856C4500026EC8A /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

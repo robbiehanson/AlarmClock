@@ -1,0 +1,51 @@
+{
+    IBClasses = (
+        {CLASS = CalendarView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                changeCal = id; 
+                closeCalPanel = id; 
+                delete = id; 
+                ok = id; 
+                preview = id; 
+                search = id; 
+                selectDate = id; 
+                switchSource = id; 
+                toggleDateTime = id; 
+                toggleEasyWake = id; 
+                toggleShuffle = id; 
+                toggleStatus = id; 
+            }; 
+            CLASS = EditorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                calMonths = id; 
+                calPanel = id; 
+                calView = id; 
+                calYears = id; 
+                dateButton = id; 
+                dateField = id; 
+                deleteButton = id; 
+                easyWakeButton = id; 
+                playlists = id; 
+                previewButton = id; 
+                repeatSchedule = id; 
+                repeatType = id; 
+                searchField = id; 
+                searchLabel = id; 
+                shuffleButton = id; 
+                songLabel = id; 
+                statusButton = id; 
+                sunMoonImage = id; 
+                tabView = id; 
+                table = id; 
+                timeField = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

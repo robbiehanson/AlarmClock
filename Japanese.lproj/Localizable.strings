@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i 分";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "詳細";
+
+/* Preference Pane Option */
+"Easy Wake" = "Easy Wake";
+
+/* Preference Pane Option */
+"General" = "一般";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "アプリケーションの内部コンポーネントが変更されました。 コンピュータをスリープから復帰できるようにするには再認証が必要です。";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.¥nPlease reinstall the application." = "プログラムの内部コンポーネントが変更されています。¥nアプリケーションを再インストールしてください。";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "再認証が必要です";
+
+/* Dialog Title */
+"Security Warning" = "セキュリティの警告";
+
+/* Preference Pane Option */
+"Software Update" = "ソフトウェア・アップデート";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!¥n¥nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "このアプリケーションは画面右上のシステムメニューバーで動作します。このアイコンからアラームの設定、環境設定やアプリケーションの終了を行うことができます。¥n¥nPS - コンピュータをスリープから復帰させるには、まずアプリケーションの環境設定から認証を行う必要があります。";
+
+/* Today */
+"Today" = "今日";
+
+/* Tomorrow */
+"Tomorrow" = "明日";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Alarm Clock にようこそ";

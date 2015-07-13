@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            CLASS = AlarmController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {roundedView = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = RoundedView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {roundedController = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = RoundedWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {roundedView = id; }; 
+            SUPERCLASS = NSWindow; 
+        }
+    ); 
+    IBVersion = 1; 
+}

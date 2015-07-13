@@ -1,0 +1,264 @@
+, Arabic, 
+    05:51 ?
+United Arab Emirates, Arabic, 
+    05:51 ?
+Bahrain, Arabic, 
+    05:51 ?
+Algeria, Arabic, 
+    05:51 ?
+Egypt, Arabic, 
+    05:51 ?
+Iraq, Arabic, 
+    05:51 ?
+Jordan, Arabic, 
+    05:51 ?
+Kuwait, Arabic, 
+    05:51 ?
+Lebanon, Arabic, 
+    05:51 ?
+Libya, Arabic, 
+    05:51 ?
+Morocco, Arabic, 
+    05:51 ?
+Oman, Arabic, 
+    05:51 ?
+Qatar, Arabic, 
+    05:51 ?
+Saudi Arabia, Arabic, 
+    05:51 ?
+Sudan, Arabic, 
+    05:51 ?
+Syria, Arabic, 
+    05:51 ?
+Tunisia, Arabic, 
+    05:51 ?
+Yemen, Arabic, 
+    05:51 ?
+India, Hindi, 
+    ?:?? ???????
+, Hebrew, 
+    17:51
+Israel, Hebrew, 
+    17:51
+, Japanese, 
+    17:51
+Japan, Japanese, 
+    17:51
+, Korean, 
+    ?? 5:51
+South Korea, Korean, 
+    ?? 5:51
+, Thai, 
+    17:51 ?.
+Thailand, Thai, 
+    17:51 ?.
+Thailand, Thai, TH
+    ??:?? ?.
+, Vietnamese, 
+    17:51
+Vietnam, Vietnamese, 
+    17:51
+, Chinese, 
+    ??5:51
+China, Chinese, 
+    ??5:51
+Hong Kong, Chinese, 
+    ??5:51
+Taiwan, Chinese, 
+    ?? 5:51
+, Belarusian, 
+    17.51
+Belarus, Belarusian, 
+    17.51
+, Bulgarian, 
+    17:51
+Bulgaria, Bulgarian, 
+    17:51
+, Catalan, 
+    17:51
+Spain, Catalan, 
+    17:51
+, Czech, 
+    17:51
+Czech Republic, Czech, 
+    17:51
+, Danish, 
+    17:51
+Denmark, Danish, 
+    17:51
+, German, 
+    17:51
+Austria, German, 
+    17:51
+Switzerland, German, 
+    17:51
+Germany, German, 
+    17:51
+Luxembourg, German, 
+    17:51
+, Greek, 
+    5:51 ??
+Greece, Greek, 
+    5:51 ??
+Australia, English, 
+    17:51
+Canada, English, 
+    5:51 PM
+United Kingdom, English, 
+    17:51
+Ireland, English, 
+    17:51
+India, English, 
+    5:51 PM
+New Zealand, English, 
+    17:51
+South Africa, English, 
+    05:51
+, Spanish, 
+    17:51
+Argentina, Spanish, 
+    17:51
+Bolivia, Spanish, 
+    05:51 PM
+Chile, Spanish, 
+    05:51 PM
+Colombia, Spanish, 
+    05:51 PM
+Costa Rica, Spanish, 
+    05:51 PM
+Dominican Republic, Spanish, 
+    05:51 PM
+Ecuador, Spanish, 
+    05:51 PM
+Spain, Spanish, 
+    17:51
+Guatemala, Spanish, 
+    05:51 PM
+Honduras, Spanish, 
+    05:51 PM
+Mexico, Spanish, 
+    05:51 PM
+Nicaragua, Spanish, 
+    05:51 PM
+Panama, Spanish, 
+    05:51 PM
+Peru, Spanish, 
+    05:51 PM
+Puerto Rico, Spanish, 
+    05:51 PM
+Paraguay, Spanish, 
+    05:51 PM
+El Salvador, Spanish, 
+    05:51 PM
+Uruguay, Spanish, 
+    05:51 PM
+Venezuela, Spanish, 
+    05:51 PM
+, Estonian, 
+    17:51
+Estonia, Estonian, 
+    17:51
+, Finnish, 
+    17:51
+Finland, Finnish, 
+    17:51
+, French, 
+    17:51
+Belgium, French, 
+    17:51
+Canada, French, 
+    17:51
+Switzerland, French, 
+    17:51
+France, French, 
+    17:51
+Luxembourg, French, 
+    17:51
+, Croatian, 
+    17:51
+Croatia, Croatian, 
+    17:51
+, Hungarian, 
+    17:51
+Hungary, Hungarian, 
+    17:51
+, Icelandic, 
+    17:51
+Iceland, Icelandic, 
+    17:51
+, Italian, 
+    17.51
+Switzerland, Italian, 
+    17:51
+Italy, Italian, 
+    17.51
+, Lithuanian, 
+    17.51
+Lithuania, Lithuanian, 
+    17.51
+, Latvian, 
+    17:51
+Latvia, Latvian, 
+    17:51
+, Macedonian, 
+    17:51
+Macedonia, Macedonian, 
+    17:51
+, Dutch, 
+    17:51
+Belgium, Dutch, 
+    17:51
+Netherlands, Dutch, 
+    17:51
+, Norwegian, 
+    17:51
+Norway, Norwegian, 
+    17:51
+Norway, Norwegian, Nynorsk
+    17:51
+, Polish, 
+    17:51
+Poland, Polish, 
+    17:51
+, Portuguese, 
+    17:51
+Brazil, Portuguese, 
+    17:51
+Portugal, Portuguese, 
+    17:51
+, Romanian, 
+    17:51
+Romania, Romanian, 
+    17:51
+, Russian, 
+    17:51
+Russia, Russian, 
+    17:51
+, Slovak, 
+    17:51
+Slovakia, Slovak, 
+    17:51
+, Slovenian, 
+    17:51
+Slovenia, Slovenian, 
+    17:51
+, Albanian, 
+    5.51.MD
+Albania, Albanian, 
+    5.51.MD
+, Swedish, 
+    17:51
+Sweden, Swedish, 
+    17:51
+, Turkish, 
+    17:51
+Turkey, Turkish, 
+    17:51
+, Ukrainian, 
+    17:51
+Ukraine, Ukrainian, 
+    17:51
+United States, English, 
+    5:51 PM
+, English, 
+    5:51 PM

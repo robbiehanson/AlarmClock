@@ -1,0 +1,44 @@
+﻿/* Label in Preferences panel */
+"%i minutes" = "%i minut";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Pokročilé";
+
+/* Preference Pane Option */
+"Easy Wake" = "Snadné probuzení";
+
+/* Preference Pane Option */
+"General" = "Obecné";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Interní komponenty aplikace se změnily. Znovuověření je požadováno, aby se počítač mohl probrat ze spánku.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "S interními komponenty aplikace bylo manipulováno.\nReinstalujte prosím aplikaci.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Požadováno znovuověření";
+
+/* Dialog Title */
+"Security Warning" = "Bezpečnostní varování";
+
+/* Preference Pane Option */
+"Software Update" = "Aktualizace software";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Tato aplikace běží pouze v systémovém menu, v pravém horním rohu.  Můžete spravovat vaše budíky, měnit předvolby a ukončit aplikaci z této ikony.  Užijte si jej!\n\nPS - Pro probuzení počítače ze spánku musíte nejdříve provést ověření v předvolbách.";
+
+/* Today */
+"Today" = "Dnes";
+
+/* Tomorrow */
+"Tomorrow" = "Zítra";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Vítejte v Alarm Clocku";

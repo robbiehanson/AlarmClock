@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {closeConfigPanel = id; }; 
+            CLASS = StopwatchController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alwaysOnTopButton = id; 
+                configPanel = id; 
+                nameField = id; 
+                transparentView = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = TransparentView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {transparentController = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TransparentWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {transparentView = id; }; 
+            SUPERCLASS = NSWindow; 
+        }
+    ); 
+    IBVersion = 1; 
+}

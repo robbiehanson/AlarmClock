@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA /* Development */;
+		activeExecutable = A326412309D3A57700234525 /* AlarmClock */;
+		activeTarget = 8D1107260486CEB800E47090 /* AlarmClock */;
+		breakpointsGroup = A326414009D3A5A000234525 /* XCBreakpointsBucket */;
+		codeSenseManager = A326413F09D3A5A000234525 /* Code sense */;
+		executables = (
+			A326412209D3A57700234525 /* helper */,
+			A326412309D3A57700234525 /* AlarmClock */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					777,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 164865399;
+			PBXWorkspaceStateSaveDate = 164865399;
+		};
+		perUserProjectItems = {
+			A326416509D3ADF100234525 /* PBXTextBookmark */ = A326416509D3ADF100234525 /* PBXTextBookmark */;
+			A326416609D3ADF100234525 /* PBXTextBookmark */ = A326416609D3ADF100234525 /* PBXTextBookmark */;
+			A326416809D3ADF100234525 /* PBXTextBookmark */ = A326416809D3ADF100234525 /* PBXTextBookmark */;
+			A326416909D3ADF100234525 /* PBXTextBookmark */ = A326416909D3ADF100234525 /* PBXTextBookmark */;
+			A326416A09D3ADF100234525 /* PBXTextBookmark */ = A326416A09D3ADF100234525 /* PBXTextBookmark */;
+			A326416B09D3ADF100234525 /* PBXTextBookmark */ = A326416B09D3ADF100234525 /* PBXTextBookmark */;
+			A326416C09D3ADF100234525 /* PBXTextBookmark */ = A326416C09D3ADF100234525 /* PBXTextBookmark */;
+			A326416D09D3ADF100234525 /* PBXTextBookmark */ = A326416D09D3ADF100234525 /* PBXTextBookmark */;
+			A326416E09D3ADF100234525 /* PBXTextBookmark */ = A326416E09D3ADF100234525 /* PBXTextBookmark */;
+			A326416F09D3ADF100234525 /* PBXTextBookmark */ = A326416F09D3ADF100234525 /* PBXTextBookmark */;
+			A326417009D3ADF100234525 /* PBXTextBookmark */ = A326417009D3ADF100234525 /* PBXTextBookmark */;
+			A326417109D3ADF100234525 /* PBXTextBookmark */ = A326417109D3ADF100234525 /* PBXTextBookmark */;
+			A326417209D3ADF100234525 /* PBXTextBookmark */ = A326417209D3ADF100234525 /* PBXTextBookmark */;
+			A326418909D3B2C500234525 /* PBXTextBookmark */ = A326418909D3B2C500234525 /* PBXTextBookmark */;
+			A326418A09D3B2C500234525 /* PBXTextBookmark */ = A326418A09D3B2C500234525 /* PBXTextBookmark */;
+			A326418B09D3B2C500234525 /* PBXTextBookmark */ = A326418B09D3B2C500234525 /* PBXTextBookmark */;
+			A326419409D3B3A500234525 /* PBXTextBookmark */ = A326419409D3B3A500234525 /* PBXTextBookmark */;
+			A326419609D3B3A500234525 /* PBXTextBookmark */ = A326419609D3B3A500234525 /* PBXTextBookmark */;
+			A32641A109D3B41700234525 /* PBXTextBookmark */ = A32641A109D3B41700234525 /* PBXTextBookmark */;
+			A32641AC09D3B51400234525 /* PBXTextBookmark */ = A32641AC09D3B51400234525 /* PBXTextBookmark */;
+			A32641AE09D3B51400234525 /* PBXTextBookmark */ = A32641AE09D3B51400234525 /* PBXTextBookmark */;
+			A326422709D3C36C00234525 /* PBXTextBookmark */ = A326422709D3C36C00234525 /* PBXTextBookmark */;
+			A326422909D3C36C00234525 /* PBXTextBookmark */ = A326422909D3C36C00234525 /* PBXTextBookmark */;
+			A326422A09D3C36C00234525 /* PBXTextBookmark */ = A326422A09D3C36C00234525 /* PBXTextBookmark */;
+			A326422B09D3C36C00234525 /* PBXTextBookmark */ = A326422B09D3C36C00234525 /* PBXTextBookmark */;
+			A326422C09D3C36C00234525 /* PBXTextBookmark */ = A326422C09D3C36C00234525 /* PBXTextBookmark */;
+			A326423409D3C3F000234525 /* PBXTextBookmark */ = A326423409D3C3F000234525 /* PBXTextBookmark */;
+			A326423509D3C3F000234525 /* PBXTextBookmark */ = A326423509D3C3F000234525 /* PBXTextBookmark */;
+			A326424409D3CA9500234525 /* PBXTextBookmark */ = A326424409D3CA9500234525 /* PBXTextBookmark */;
+			A326424509D3CA9500234525 /* PBXTextBookmark */ = A326424509D3CA9500234525 /* PBXTextBookmark */;
+			A326424609D3CA9500234525 /* PBXTextBookmark */ = A326424609D3CA9500234525 /* PBXTextBookmark */;
+			A326424709D3CA9500234525 /* PBXTextBookmark */ = A326424709D3CA9500234525 /* PBXTextBookmark */;
+			A326424809D3CA9500234525 /* PBXTextBookmark */ = A326424809D3CA9500234525 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A326413E09D3A5A000234525 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* AlarmClock */ = {
+		activeExec = 0;
+		executables = (
+			A326412309D3A57700234525 /* AlarmClock */,
+		);
+	};
+	A326412209D3A57700234525 /* helper */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = helper;
+		sourceDirectories = (
+		);
+	};
+	A326412309D3A57700234525 /* AlarmClock */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AlarmClock;
+		sourceDirectories = (
+		);
+	};
+	A326413E09D3A5A000234525 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A326413F09D3A5A000234525 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A326414009D3A5A000234525 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	A326416509D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCEAEA6907E04996007FE65C /* EditorController.m */;
+		name = "EditorController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	A326416609D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFE906F57B45005B5B92 /* AlarmController.h */;
+		name = "AlarmController.h: isStopped";
+		rLen = 0;
+		rLoc = 569;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 22;
+	};
+	A326416809D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10105309D25A4900D84FD8 /* WindowManager.m */;
+		name = "WindowManager.m: 210";
+		rLen = 0;
+		rLoc = 6370;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 6396;
+	};
+	A326416909D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */;
+		name = "AppleRemote.m: 239";
+		rLen = 0;
+		rLoc = 5179;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 1920;
+	};
+	A326416A09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10105309D25A4900D84FD8 /* WindowManager.m */;
+		name = "WindowManager.m: 159";
+		rLen = 0;
+		rLoc = 5134;
+		rType = 0;
+		vrLen = 1639;
+		vrLoc = 4414;
+	};
+	A326416B09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */;
+		name = "AppleRemote.m: 239";
+		rLen = 0;
+		rLoc = 5179;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 1920;
+	};
+	A326416C09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCEAEA6907E04996007FE65C /* EditorController.m */;
+		name = "EditorController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	A326416D09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "- (void)stop";
+		rLen = 13;
+		rLoc = 9251;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 9175;
+	};
+	A326416E09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFE906F57B45005B5B92 /* AlarmController.h */;
+		name = "AlarmController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 22;
+	};
+	A326416F09D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = timer;
+		rLen = 5;
+		rLoc = 11723;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 9039;
+	};
+	A326417009D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFE906F57B45005B5B92 /* AlarmController.h */;
+		name = "AlarmController.h: isStopped";
+		rLen = 0;
+		rLoc = 569;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 22;
+	};
+	A326417109D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 356";
+		rLen = 0;
+		rLoc = 9370;
+		rType = 0;
+		vrLen = 1338;
+		vrLoc = 3471;
+	};
+	A326417209D3ADF100234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */;
+		name = "AppleRemote.m: 187";
+		rLen = 0;
+		rLoc = 3973;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 3703;
+	};
+	A326418909D3B2C500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 167";
+		rLen = 0;
+		rLoc = 5790;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 15660;
+	};
+	A326418A09D3B2C500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10105309D25A4900D84FD8 /* WindowManager.m */;
+		name = "WindowManager.m: 201";
+		rLen = 0;
+		rLoc = 6370;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 5218;
+	};
+	A326418B09D3B2C500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 167";
+		rLen = 0;
+		rLoc = 5790;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 15660;
+	};
+	A326419409D3B3A500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */;
+		name = "AppleRemote.m: 234";
+		rLen = 0;
+		rLoc = 5104;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 4547;
+	};
+	A326419609D3B3A500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10140509D340AB00D84FD8 /* AppleRemote.m */;
+		name = "AppleRemote.m: 234";
+		rLen = 0;
+		rLoc = 5104;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 4547;
+	};
+	A32641A109D3B41700234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 527";
+		rLen = 0;
+		rLoc = 14194;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 13693;
+	};
+	A32641AC09D3B51400234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10105309D25A4900D84FD8 /* WindowManager.m */;
+		name = "WindowManager.m: 174";
+		rLen = 0;
+		rLoc = 5665;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 5314;
+	};
+	A32641AE09D3B51400234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC10105309D25A4900D84FD8 /* WindowManager.m */;
+		name = "WindowManager.m: 174";
+		rLen = 0;
+		rLoc = 5665;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 5314;
+	};
+	A326422709D3C36C00234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCCE2A8A07C32CBB00A0851D /* Todo.txt */;
+		name = "Todo.txt: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	A326422909D3C36C00234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCA0B3B807B0566900004706 /* AlarmTasks.m */;
+		name = "AlarmTasks.m: 515";
+		rLen = 0;
+		rLoc = 17045;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 14900;
+	};
+	A326422A09D3C36C00234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCCE2A8A07C32CBB00A0851D /* Todo.txt */;
+		name = "Todo.txt: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 0;
+	};
+	A326422B09D3C36C00234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCC72E7A07F4F4B200E9B982 /* Changes.txt */;
+		name = "Changes.txt: 196";
+		rLen = 0;
+		rLoc = 8219;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 6797;
+	};
+	A326422C09D3C36C00234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCCE2A8A07C32CBB00A0851D /* Todo.txt */;
+		name = "Todo.txt: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 0;
+	};
+	A326423409D3C3F000234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCC72E7A07F4F4B200E9B982 /* Changes.txt */;
+		name = "Changes.txt: 196";
+		rLen = 0;
+		rLoc = 8219;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 6797;
+	};
+	A326423509D3C3F000234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCC72E7A07F4F4B200E9B982 /* Changes.txt */;
+		name = "Changes.txt: 196";
+		rLen = 0;
+		rLoc = 8219;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 6797;
+	};
+	A326424409D3CA9500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCA0B3B807B0566900004706 /* AlarmTasks.m */;
+		name = NSTask;
+		rLen = 6;
+		rLoc = 8505;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 7620;
+	};
+	A326424509D3CA9500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 616";
+		rLen = 0;
+		rLoc = 17191;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 15589;
+	};
+	A326424609D3CA9500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 616";
+		rLen = 0;
+		rLoc = 17191;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 15589;
+	};
+	A326424709D3CA9500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCA0B3B807B0566900004706 /* AlarmTasks.m */;
+		name = NSTask;
+		rLen = 6;
+		rLoc = 8505;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 7620;
+	};
+	A326424809D3CA9500234525 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC8FAFEA06F57B45005B5B92 /* AlarmController.m */;
+		name = "AlarmController.m: 619";
+		rLen = 0;
+		rLoc = 17191;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 13701;
+	};
+	DC10105309D25A4900D84FD8 /* WindowManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {969, 2814}}";
+			sepNavSelRange = "{5665, 0}";
+			sepNavVisRect = "{{0, 2210}, {969, 593}}";
+		};
+	};
+	DC10140509D340AB00D84FD8 /* AppleRemote.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {969, 7140}}";
+			sepNavSelRange = "{5104, 0}";
+			sepNavVisRect = "{{0, 2860}, {969, 593}}";
+		};
+	};
+	DC8FAFE906F57B45005B5B92 /* AlarmController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 1092}}";
+			sepNavSelRange = "{569, 0}";
+			sepNavVisRect = "{{0, 14}, {870, 592}}";
+		};
+	};
+	DC8FAFEA06F57B45005B5B92 /* AlarmController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {969, 8736}}";
+			sepNavSelRange = "{17191, 0}";
+			sepNavVisRect = "{{0, 7118}, {969, 593}}";
+		};
+	};
+	DCA0B3B807B0566900004706 /* AlarmTasks.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 7378}}";
+			sepNavSelRange = "{11835, 88}";
+			sepNavVisRect = "{{0, 5337}, {1029, 249}}";
+		};
+	};
+	DCA0B4CC07B072D500004706 /* helper */ = {
+		activeExec = 0;
+		executables = (
+			A326412209D3A57700234525 /* helper */,
+		);
+	};
+	DCC72E7A07F4F4B200E9B982 /* Changes.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {969, 2744}}";
+			sepNavSelRange = "{8219, 0}";
+			sepNavVisRect = "{{0, 2151}, {969, 593}}";
+		};
+	};
+	DCCE2A8A07C32CBB00A0851D /* Todo.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {969, 602}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRect = "{{0, 0}, {969, 593}}";
+		};
+	};
+	DCEAEA6907E04996007FE65C /* EditorController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 13272}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {870, 592}}";
+		};
+	};
+}

@@ -1,0 +1,356 @@
+VERSION 1.92
+
+Added "Launch application at login" option (thanks Brett)
+Stripped dead code from Prefs
+MAJOR BUG FIX which caused application to crash - (thanks Brett)
+Alarm windows now turn off the screensaver (thanks Brett)
+Now wakes up G5 computers (thanks Anne)
+Alarm windows have configurable snooze durations now
+Menu will now display "Today" or "Tomorrow" instead of date
+Menu updates properly after alarms
+Improved easy wake algorithm
+Added localization code
+Changed app name from "AlarmClock" to "Alarm Clock"
+Fixed possible memory leak in DateFieldController and TimeFieldController
+Alarm Windows now properly manage sleep schedule
+Alarm Windows now use easy wake properly after snoozing
+GUI now enforces maxVolume >= minVolume
+Implemented internet version checking (thanks Brett)
+
+VERSION 1.93
+
+Fixed small memory leak in iTunes parsing code
+Fixed bug causing alarms with termination date to display wrong repeating info in menu bar
+
+VERSION 1.94
+
+Fixed bug causing termination option to not be selected
+Changed "Preferences" window to "Alarm Clock Preferences"
+Changed default preference to "Press any key to snooze"
+
+VERSION 1.95
+
+Changed alarm window to a tranparent window
+Now GUI prevents users from setting alarm if it's not in the future
+Added fade out of alarm window after clicking stop
+
+VERSION 1.951
+
+Fixed bug that made app crash if preferences was opened more than once
+Alarm window didn't fade out if stopped with keyboard
+"Launch application at login" was remembered between sessions
+Minor string alterations in "Check for updates..."
+
+VERSION 1.96
+
+Fixed layout problems with alarm window when resizing
+Fixed broken "check for updates", by updating link to point to my new server
+Changed code to only prompt once when Preference options don't match system (less annoying this way)
+Alarm windows now properly ignore keyboard events when the alarm is not going off
+Alarm windows now ignore keyboard events for the first 2 seconds of the alarm
+	This helps to prevent accidentally closing the alarm when you are doing other things on the computer
+Alarm window is now properly centered on the screen
+
+VERSION 1.97
+
+Alarm windows now respond to button clicks, even when it is not the active app
+Parsed iTunes data is now not retained.  It is only used when making/editing alarms.
+	The data is parsed in background, so it shouldn't be noticable most of the time.
+	The upshot of this is that the app should take up a lot less memory during normal operation.
+	It will also launch 20 times faster!
+Added paypal donate button to about panel
+Converted Sample Alarms to mp4 encoding - Decreases app size by 5.6 MB!
+
+VERSION 1.98
+
+Fixed a few bugs where date of alarm is not properly set in certain situations
+Fixed a bug when stepping the date, and using american month/day/year format
+Converted Sample Alarms in mp4 encoding, to m4a encoding via iTunes - Decreases app size by another 2.5 MB!
+Completely rewrote the iTunes parsing code, using NSDictionary.
+Parsing time now down about 250%!
+Memory footprint now down about 400%!
+Finally figured out how to package everything in a customized disk image.
+
+RELEASE CANDIDATE 1
+
+Fixed "check for updates" link
+Fixed bug where alarms go off, even if wake from sleep isn't selected
+When selecting alarm to edit from the menu, windows only open up once now.
+  (Before, if you selected an alarm from the menu, and it was already open, a new window would open anyways)
+New alarms now use a default time of 8:00 AM.  I think this is less confusing than the current time.
+Fixed bug that would occur when trying to schedule the computer to wake from sleep in the next 30 seconds or less
+  (This is why many people claimed that the program would not wake their computer from sleep)
+When an alarm goes off, the alarm window now loads much faster
+  (System call to disable screen saver was the culprit.  It is now done in a background thread)
+When an alarm goes off, the alarm window now gains focus, even when waking from sleep and disabling screen saver
+
+RELEASE CANDIDATE 2
+
+Forgot to change the version number of release candidate 1. Fixed that.
+Forgot to grab window focus after snoozing
+App used to not let the computer go to sleep if an alarm was active (aka snoozing)
+	I changed it so that if the computer is running on battery power, it will let the computer sleep.
+Fixed homepage link in about panel
+Added an md5 check to the helper program prior to authenticating, to make the program more secure
+
+RELEASE 2.0
+
+Fixed a bug that would cause the app to crash under certain conditions
+	If you woke the computer from sleep, and then immediately put it back to sleep.
+Colorized the icon in the system tray
+	If you don't have any alarms scheduled, the icon is black and white
+	If you have alarms scheduled, the icon is blue
+	If you have alarms scheduled, but don't have the app set to wake the computer from sleep, the icon is blue with red bells
+Fixed a memory leak: Each time the alarm editor was opened a string and two dates were leaked.
+Previously, alarms were only saved to user preferences when the program was quit from the item in the menu.
+	Fixed this so that alarms are saved as you add, delete and edit them.
+	
+RELEASE 2.1
+
+Application is now a universal binary.
+Fixed a bug that occured when searching music library
+	If you switched playlists, the search cache was not properly cleared.
+Added ability to wake to playlists, instead of just single songs.
+Added support for waking to radio streams. Just add them to your iTunes library and select them in the application.
+
+RELEASE 2.1.1
+
+Fixed crash that occured when playlistID was not found in iTunes library.
+Found (extremely rare) bug in old quicktime code
+	Now using apple's newest quicktime libraries.
+	Should provide improved performance and stability.
+	This also changes requirements to 10.3 or later, and quicktime 7 or later.
+Hack: Hidden plist option (XMLPath) now allows for libraries in odd places.
+Fixed bug that would display "null" as selected song/playlist when song/playlist was deleted in iTunes.
+
+RELEASE 2.1.2
+
+Bugfix: Now unmutes the audio during an alarm. (I think this only affected 10.4 systems)
+Fixed possible multi-threading bug.
+
+RELEASE 2.1.3
+
+Fixed a bug that caused the application to crash after snoozing (only affected 2.1.2)
+
+RELEASE 2.1.4
+
+Added Traditional Chinese localization
+Fixed small memory leak in authorization code
+Fixed bug when song/playlist was deleted in iTunes
+
+RELEASE 2.1.5
+
+Added French localization
+Added German localization
+Fixed date formatting localization bug
+Fixed CFBundleGetInfoString, to display version number in "Get Info"
+Minor improvements to transparent alarm window drawing code
+Alarm editor window title fix
+Version check now using new domain.  (Should be much faster)
+
+RELEASE 2.1.6
+
+Added Bulgarian localization
+Added support for many more date formats (DD.MM.YYYY, YYYY-DD-MM, etc)
+Fixed problems with 24 hour clock
+Fixed wake from sleep on intel
+
+RELEASE 2.2
+
+Added Danish localization
+Now using native date/time formatters (meaning 10.4 only)
+Alarm Editor now remembers previous window position (frameAutosaveName)
+Alarm Editor now automatically selects time field on window open (initialFirstResponder)
+Vastly improved easy wake, using core audio
+Fixed bug in iTunes searching code
+Added shuffle option when using a playlist
+New and improved menu icon
+Other minor fixes
+
+RELEASE 2.2.1
+
+Updated chinese localization
+Updated french localization
+Fixed several issues related to users changing the location of the iTunes library
+Fixed several issues where song would change after changing iTunes library
+
+RELEASE 2.2.2
+
+Fixed bug with multiple playlists named the same thing
+Fixed bug when XML file was on external drive with an alias
+Alarm editor now restores selected song and/or playlist
+Now pauses iTunes when an alarm goes off
+Fixed rare bug causing crash during immediate successive wake/sleep cycles
+Interface fixes and tweaks
+
+RELEASE 2.2.3
+
+Added Spanish localization
+Added Dutch localization
+Added support for Apple Remote
+Several minor bug fixes:
+  Check for updates now correct for pre-release builds
+  Fixed "Song: (null)" and "Playlist: (null)" display bugs
+  Fixed Enter/Return bug
+  Fixed double-clicking stop bug
+  Smoother window fade out when stop is clicked
+  Improved accuracy of AlarmTask timer
+  Improved readability of text in bezel by adding a shadow
+  Fixed unmuting bug
+
+RELEASE 2.2.4
+
+Added Italian localization
+Alarms now automatically adjust if you change time zones
+Optimized compiler for 10.4 or later
+New alarms now default to current time
+Now changes "tomorrow" to "today" (in the menu) at the correct time
+Improved support for system power notifications
+Alarm Window now appears quicker
+
+RELEASE 2.2.5
+
+DaysOfWeek grid and date now properly disabled when opening up an alarm editor for an alarm that's disabled.
+Error messages (in alarm editor) now use localized version of "OK"
+Properly calls setDocumentEdited, and prompts for users to save changes if needed
+Implemented work-around for setVolume bug on intel macs immediately after waking from sleep
+
+RELEASE 2.2.6
+
+Fixed bug where app would crash if it encountered a bad alias.
+Fixed bug where app would crash if you immediately hit stop before the background thread completed.
+  Depending on your computer, the background thread lasted anywhere from 0.3 to 1.7 seconds.
+  So yes, you had to act extremely fast if you wanted to catch this bug.
+Fixed bug where app would crash if you tried to edit a one-time alarm after it had already gone off.
+  This was only possible if the alarm editor was open when the alarm went off.
+Fixed memory leak in ITunesPlayer
+  QTMovie's weren't being released when using a playlist!
+Fixed bug where currently snoozing alarm doesn't wake a battery powered intel macbook that goes to sleep
+  between 30 and 45 seconds before snooze ending, or between 0 and 15 seconds before snooze ending.
+Fixed a bug related to the alarm check timer firing early.
+  This was a freak incident, that happend to me once over the course of months of testing.
+  This meant that alarms would go off a minute late.
+  This was actually a flaw in the OS or the NSTimer API, or some kind of freak situation.
+  But it happend to me consistently on my computer one night...
+  So I coded around the possibility of a small inacuraccy in the firing of a timer
+Now automatically skips to next track in between snoozes
+Implemented remote support for next track and previous track
+
+RELEASE 2.3
+
+Added Hebrew localization
+Fixed bug where a single alarm goes off multiple times when timer fires early
+  The timer firing early is an OS bug
+  Workaround introduced in version 2.2.6 introduced this bug
+  Bugfix for the bugfix. Pathetic.
+Fixed bug where timer may become off by a second or two after running for several weeks
+Fixed bug that crashed app when trying to invalidate a timer in AlarmTasks
+  This has only happened to me once, but it happened
+  I think it must have happened in just the right order or something crazy
+  Now AlarmTasks retains all timers to prevent dangling pointers
+Added Timer
+Added Stopwatch
+Added Welcome Message for new users
+Added "Use easy wake by default" option to preferences
+Split up Localizable.strings into multiple files for each nib
+  This should help the translators with organization and understanding
+  
+RELEASE 2.3.1
+
+Alarm window now displays current song information
+Improved accuracy of timer and stopwatch
+Fix bug where increasing/decreasing timer duration after it's done
+Fix bug where timer/stopwatch window is offscreen (luke's bug report from MN)
+Add icons for playlists
+
+RELEASE 2.3.2
+
+Added Portuguese localization
+Changed default values of Easy Wake, so users know it's playing during first test
+	Starting volume is no longer 0%
+Added AppleScript support for 3rd party remote control users
+	tell app "Alarm Clock" to snooze
+
+RELEASE 2.3.3
+
+Added Polish localization
+Added Finnish localization
+Fixed bug where disabled alarms would become out of order in the menu
+Alarm window now automatically switch to song title when a new song starts.
+Reset volume to minVolume when hitting snooze and using easy wake
+
+RELEASE 2.3.4
+
+Added Russian localization
+Fixed bug that caused the iTunes search cache to be cleared before every search (therefore making it useless)
+Fixed small memory leak in MenuController (NSMenuItem's weren't being autoreleased)
+
+RELEASE 2.3.5
+
+Internationalized calendar widget
+Fixed spelling mistakes in Finnish localization
+Added support for "1 song" as opposed to "1 songs"
+Increased max kill duration to 90 minutes
+Added customizeable titles to stopwatch windows
+Fixed enter key problem on certain keyboards
+Added support for increasing snooze duration in 5 minute increments
+    Just hold down the option key when clicking plus/minus buttons
+
+RELEASE 2.3.6
+
+Fixed stopwatch problem in all non-english localizations
+	I had update the english stopwatch nib, and forgot about the other ones
+
+RELEASE 2.3.7
+
+Added Japanese localization
+
+RELEASE 2.3.8
+
+Added images to reduce AM/PM confusion
+Fixed tiny memory leak
+Added 'always on top' option to timer and stopwatch windows
+Added 'use alarm volume' option to timer
+Added ability to option click plus/minus buttons in timer to add/subtract 5 minute intervals
+
+RELEASE 2.4
+
+Added Swedish localization
+Updated preferences panel
+Added automatic updates option
+
+RELEASE 2.4.1
+
+Fixed bug related to unauthorized protected music
+Fixed auto update install bug
+Updated Portuguese Localization
+Updated French Localization
+
+RELEASE 2.4.2
+
+Fixed bug related to nested playlist folders
+
+RELEASE 2.4.3
+
+Added Hungarian Localization
+Fixed menu bug caused from over 10 alarms
+Timer now remembers previous names and times
+
+RELEASE 2.4.4
+
+"Press any key to..." now works properly after screen saver is deactivated
+Added ability to increase/decrease snooze duration with keyboard
+Added Greek Localization
+Updated German Localization
+Other minor changes
+
+RELEASE 2.4.5
+
+Fixed offscreen timer/stopwatch bug
+Added minimize button for timer/stopwatch
+Added Czech Localization
+Updated German Localization
+Updated Hungarian Localization
+
+RELEASE 2.4.6
+

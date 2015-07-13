@@ -1,0 +1,69 @@
+FOR 2.4.2 RELEASE
+
+1. Add norwegian localization!
+
+1. Monitor the helper utility for stripped authentication!
+
+2. Ability to save names, positions, and times of stopwatches and timers.
+3. Make alarms only unmute the system volume every 30 seconds after initial unmute.
+
+4. [checkbox] Remember music settings for new alarms
+5. Look into keyboard shortcuts for new alarms, timer, stopwatch, etc...
+
+6. User thinks they have authenticated, but file has not been set suid (on read only disc image)
+7. Update Apple Remote API for newest version (Mostly for next feature)
+8. Add support for putting the computer to sleep with remote control.  (As long as no alarms are active)
+
+9. Change color of timer when it goes off. Or otherwise make extra visible when using multiple alarms.
+10. Make it possible to change the color of the timer/stopwatch windows.
+
+11. Hold down option and stop alarm: alarm is essentially stopped, but music continues to play.
+
+For Future RELEASE
+
+0. Beg for donations
+1. Use resizeable window for alarm window.  (No close button)
+2. Switch to cocoa bindings (Mostly for next feature)
+3. Add sorting to iTunes table
+4. Use bindings to do searching
+5. Add speech recognition
+
+
+GENERAL TODO:
+
+Add support for XMLPath to be an alias
+Command-W to close stopwatch and timer windows.
+Auto mute audio when mouse first moves after starting alarm.
+Automatically pause iTunes if it's playing AND IF it's open
+Fix snooze during alarm playing bug (Instead of snoozing, just allow sleep)
+  Watch out for gottchas!
+  What if it receives 'canSystemSleep' during snooze, we say yes...
+  then snooze finishes, alarm starts playing, and we receive 'systemWillSleep' and the alarm ends up being terminated...
+
+Look into adding "special thanks" section
+Automatically detect if digital output is being used
+Prompt to save changes in edited alarm windows when quitting application
+
+
+KNOWN BUGS:
+
+I don't know how to turn on the monitor (if needed) when sounding alarm
+User switches defaultOutputDevice during alarm
+Fix problems with "wake from sleep" on FileVault
+Does not keep computer awake if user requires password to wake computer from sleep
+
+
+FUTURE ADDITIONS:
+
+Waking up to radio streams
+Remember the last alarm sound option.
+
+Sparkle Translations:
+
+Bulgarian [Missing]
+Dutch [NT, Pending]
+
+Version 2.4 Translations:
+
+Bulgarian
+Polish

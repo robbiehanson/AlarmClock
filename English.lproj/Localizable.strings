@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minutes";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Advanced";
+
+/* Preference Pane Option */
+"Easy Wake" = "Easy Wake";
+
+/* Preference Pane Option */
+"General" = "General";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Internal components of the application have changed. Reauthentication is required to wake the computer from sleep.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Internal components of the program have been tampered with.\nPlease reinstall the application.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Reauthentication Required";
+
+/* Dialog Title */
+"Security Warning" = "Security Warning";
+
+/* Preference Pane Option */
+"Software Update" = "Software Update";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences.";
+
+/* Today */
+"Today" = "Today";
+
+/* Tomorrow */
+"Tomorrow" = "Tomorrow";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Welcome to Alarm Clock";

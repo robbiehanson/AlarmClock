@@ -1,0 +1,197 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fnil\fcharset77 Monaco;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww12540\viewh14100\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 TOOLS NEEDED:\
+
+\f1\b0 \
+Standard text editor (Such as TextEdit)\
+Interface Builder\
+\
+Interface Builder is part of the Developer Tools and can be found at\
+/Developer/Applications/Interface Builder\
+If this does not exist on your system, you need to install the developer tools.\
+The developer tools CD was included on one of the CDs that shipped with your Mac.\
+Install them from the CD, and then be sure to update to the latest version of the tools.\
+\
+\
+\
+
+\f0\b LOCALIZATION BUNDLES:
+\f1\b0 \
+\
+Each application on your mac contains one or more localized bundles within it. The correct bundle is chosen automatically based on your language preferences set in "System Preferences" -> "International"\
+The alarm clock application is no different. To see what localizations are supported, simply right click (ctrl click) on the application and select "Show package contents".  Then navigate to Contents/Resources.  The localization bundles end with "lproj" and are named after their localization name.  They're usually named according to ISO 639 standards, meaning each has a two character designation.\
+Example:\
+French = "fr"\
+Italian = "it"\
+Spanish = "es"\
+German = "de"\
+Greek = "el"\
+Bulgarian = "bg"\
+\
+Regional designations my also be used (via ISO 3166-1).\
+Thus zh_TW may be used to support chinese (traditional chinese in particular)\
+\
+Note:\
+Back in the day, apple supported a few other names that don't follow ISO 639 and later ISO specs.\
+It allowed the following:\
+"English" instead of "en"\
+"German" instead of "de"\
+"French" instead of "fr"\
+"Japanese" instead of "jp"\
+\
+If you are translating into one of the 4 mentioned languages, you may choose to use the full name.  (Most localizers prefer it).\
+If you are not translating into one of the 4 mentioned languages, you must use the ISO standard names.\
+\
+If you are unsure what your language code is, you can find out here\
+http://www.unicode.org/unicode/onlinedat/languages.html\
+\
+For more information see the following documentation from apple (very non-technical and easy to read)\
+http://developer.apple.com/documentation/MacOSX/Conceptual/BPInternational/Articles/LanguageDesignations.html\
+\pard\pardeftab720\sa200\ql\qnatural
+\cf0 \
+\
+\
+
+\f0\b STEP 1:
+\f1\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 Make a duplicate of the English.lproj directory, and rename it accordingly for your localization.  (IE - rename it xy.lproj, where xy is the proper regional designation.)  Now view the contents of your new folder.\
+\
+There you will see a file named Localizable.strings.  Edit this file with your chosen text editor.\
+Inside is a list of text strings, with comments usually above them.\
+Example:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f2\fs20 \cf0 /* Button in Alarm Window */\
+"Good Day" = "Good Day";
+\f1\fs24 \
+\
+The comment should help to let you know where this text is being used.  In this example it looks like the text "Good Day" is inside a button within the semi-transparent alarm window.\
+\
+The first part in quotes is the english lookup string.  Do not alter this in any way or your translation will not work correctly.  This can only be edited within the source code.\
+\
+The second part is the part you need to translate.  If you were translating to german, you would edit the example to be the following:\
+\
+
+\f2\fs20 /* Button in Alarm Window */\
+"Good Day" = "Guten Tag";
+\f1\fs24 \
+\
+You may also see symbols such as "%i", "%@" within the text.  "%i" indicates a number, while "%@" represents another string.  These should be kept in tact within the translation.\
+Example:\
+\
+
+\f2\fs20 /* Spell checking dialog message */\
+"There were %i spelling mistakes in file %@." = "Datei %@ enth\'8alt %i Rechtschreibfehler.";
+\f1\fs24 \
+\
+This may produce:\
+English: There were 3 spelling mistakes in file thesis.txt.\
+German: Datei thesis.txt enth\'8alt 3 Rechtschreibfehler.\
+\
+Notice how the german translation positioned the number and string in the correct position.\
+\
+There are several other *.strings files that will need localizing.\
+\
+Note: The Localizable.strings file is in UTF-16, so it should support your language fully.\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\b \cf0 STEP 2:\
+
+\f1\b0 \
+Navigate to the proper lproj directory that you are translating within the alarm clock application.  There you will see several nib files.\
+The ones requiring translation are:\
+MainMenu.nib\
+AlarmEditor.nib\
+\
+Edit these with Interface Builder.  (Double-clicking them will open them up with Interface Builder for editing.)\
+\
+All that needs to be done is change the text to the proper language.  That's it.\
+Please try not to move any objects around, unless doing so makes more sense for the language.  I leave this to your discretion.\
+\
+\
+\
+
+\f0\b TESTING:\
+
+\f1\b0 \
+When the application launches, the correct bundle is chosen based on your preferred language order set in "System Preferences" -> "International".  First ensure this order will load the bundle you are wanting to test.  For example, if you are translating for german, make sure that Deutsch is at the top of the order.\
+\
+Then launch the alarm clock application, and take a look at your work.\
+If you change something, you will need to quit, and relaunch the application to see it in effect.\
+Don't forget to save.\
+\
+\
+\
+
+\f0\b ONE UNUSUAL NUANCE:
+\f1\b0 \
+\
+The application supports various week formats.\
+So if Sunday is not the first day of the week in your locale, this can now be fixed.\
+\
+While editing the AlarmEditor.nib file, change the repeating alarm grid to match your locale.\
+Then go to "Tools" -> "Show Inspector"\
+and set the tag correctly for each day of the week.\
+The program will read that tag, not the position in the grid.\
+The tags should be as follows:\
+0: Sunday\
+1: Monday\
+2: Tuesday\
+3: Wednesday\
+4: Thursday\
+5: Friday\
+6: Saturday\
+\
+(This is how they are set in the underlying code)\
+\
+A picture is a thousand words:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 {{\NeXTGraphic ScreenShot.jpg \width16160 \height14360
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+\
+(You may also drag the tags into the correct order.  For example, if Monday is the first day of the week in your localization, you may rearrange the cells into that order.)\
+\
+\
+
+\f0\b WINDOW TITLES:\
+\
+
+\f1\b0 The windows titles are one of the only things that may not be changed by double-clicking on the words.  These are changed in the Inspector.\
+First click on the window, then go to "Tools"->"Show Inspector", and there should be a field in the Inspector called "Window Title".  The titles may be changed here.\
+\
+\
+
+\f0\b GOOD LUCK:\
+
+\f1\b0 \
+Translation is a skill and requires both an understanding of the region's language and the region's cultural nuances.  Here are a few signs from hotels around the world showing what can happen if you don't have knowledgeable translators:\
+\
+"Please leave your values at the desk."\
+-France\
+\
+"You are invited to take advantage of the chambermaid."\
+-Japan\
+\
+"Because of the impropriety of entertaining guests of the opposite sex in the bedroom, it is suggested that the lobby be used for this purpose."\
+-Switzerland\
+\
+"Ladies are requested not to have children at the bar."\
+-Norway\
+\
+:)\
+\
+Thank you very much!\
+And don't hesitate to contact me if you have any questions!}

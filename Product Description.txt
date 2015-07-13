@@ -1,0 +1,5 @@
+This handy little application runs unobtrusively in the status bar so it won't get in the way, and it won't take up space in the dock. Use it to set as many alarms as needed, either one-time alarms or repeating alarms. Then choose anything in the iTunes library to wake to: songs, playlists, even radio stations. The application takes care of the rest, even waking the computer from sleep if needed.
+
+When it's this simple, why even bother with older alarm clocks. With this little application you can wake up to the sounds you want. You can configure your snooze duration to the length you want. You can even increase/decrease your snooze time right from the alarm window! And if waking up to blaring alarms in the morning isn't your cup of tea, there's an 'easy wake' option which will gradually increase the system volume over time.  And even this is configurable for you!
+
+And to top things off, the application is completely free! No 30 day trial software, no nag screens, just plain free. You have enough to worry about already. Enjoy.

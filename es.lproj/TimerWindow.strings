@@ -1,0 +1,18 @@
+/* Button in Timer */
+"Edit" = "Editar";
+
+/* Button in Timer */
+"Pause" = "Pausa";
+
+/* Button in Timer */
+"Reset" = "Resetear";
+
+/* Button in Timer */
+"Start" = "Empezar";
+
+/* Initial title of timer */
+"Timer" = "Temporizador";
+
+/* Status line in Timer */
+"Total Time" = "Tiempo Total";
+

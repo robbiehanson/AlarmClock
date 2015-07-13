@@ -1,0 +1,77 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                about = id; 
+                addAlarm = id; 
+                editAlarm = id; 
+                openNewStopwatch = id; 
+                openNewTimer = id; 
+                preferences = id; 
+                quit = id; 
+            }; 
+            CLASS = MenuController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {menu = NSMenu; prefsWindow = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                deauthenticate = id; 
+                setEasyWakeDuration = id; 
+                setKillDuration = id; 
+                setMaxVolume = id; 
+                setMinVolume = id; 
+                setPrefVolume = id; 
+                setSnoozeDuration = id; 
+                setUpdateInterval = id; 
+                toggleAppleRemote = id; 
+                toggleCheckForUpdates = id; 
+                toggleColoredIcons = id; 
+                toggleEasyWakeDefault = id; 
+                toggleKeyboard = id; 
+                toggleLogin = id; 
+                toggleWakeFromSleep = id; 
+            }; 
+            CLASS = PrefsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                advancedView = id; 
+                appleRemoteButton = id; 
+                checkForUpdatesButton = id; 
+                coloredIconsButton = id; 
+                deauthenticateButton = id; 
+                easyWakeDefaultButton = id; 
+                easyWakeDurationLabel = id; 
+                easyWakeDurationSlider = id; 
+                easyWakeView = id; 
+                generalView = id; 
+                keyboardType = id; 
+                killDurationLabel = id; 
+                killDurationSlider = id; 
+                loginButton = id; 
+                maxVolumeLabel = id; 
+                maxVolumeSlider = id; 
+                minVolumeLabel = id; 
+                minVolumeSlider = id; 
+                prefVolumeLabel = id; 
+                prefVolumeSlider = id; 
+                snoozeDurationLabel = id; 
+                snoozeDurationSlider = id; 
+                softwareUpdateView = id; 
+                updateIntervalPopup = id; 
+                wakeFromSleepButton = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

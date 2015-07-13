@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minutes";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Réglages avancés";
+
+/* Preference Pane Option */
+"Easy Wake" = "Réveil en douceur";
+
+/* Preference Pane Option */
+"General" = "Général";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "L'application a été profondément modifiée. La sortie de veille devra à nouveau être validée par votre mot de passe utilisateur.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Pour cette mise à jour, l'application a été profondément modifiée.\nVeuillez la réinstaller.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Nouvelle validation demandée";
+
+/* Dialog Title */
+"Security Warning" = "Alerte de sécurité";
+
+/* Preference Pane Option */
+"Software Update" = "Mise à jour";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Cette application est accessible depuis la barre des menus, en haut à droite de votre écran.  En cliquant sur son icône, un menu apparaît : vous pouvez créer et modifier vos alarmes, changer les préférences, et quitter l'application. Bonne utilisation !\n\nPS - Pour activer la sortie de veille de l'ordinateur lors d'une alarme, vous devrez valider l'option en tapant votre mot de passe.";
+
+/* Today */
+"Today" = "Aujourd'hui";
+
+/* Tomorrow */
+"Tomorrow" = "Demain";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Présentation d'Alarm Clock";

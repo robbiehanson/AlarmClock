@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i минути";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Допълнителни";
+
+/* Preference Pane Option */
+"Easy Wake" = "Лесно будене";
+
+/* Preference Pane Option */
+"General" = "Аларми";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Вътрешни компоненти на програмата са били променени. Нова оторизация е нужна за събуждане на компютъра.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Има проблем с вътрешни компоненти на програмата.\nМоля, преинсталирайте.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Нужна е нова оторизация.";
+
+/* Dialog Title */
+"Security Warning" = "Внимание!";
+
+/* Preference Pane Option */
+"Software Update" = "Software Update";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Тази програма е активна в меню-барът на системата, горе вдясно. Можете да контролирате алармите си, да променяте преференциите и да изключвате програмата от тази иконка.\n\nЗа да събудите компютъра трябва първо да оторизирате програмата в преференциите.";
+
+/* Today */
+"Today" = "Днес";
+
+/* Tomorrow */
+"Tomorrow" = "Утре";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Добре дошли в Alarm Clock";

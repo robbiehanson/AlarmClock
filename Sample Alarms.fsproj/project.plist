@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Auto Encode</key>
+	<string>FALSE</string>
+	<key>Auto Open</key>
+	<string>TRUE</string>
+	<key>Background Image Path</key>
+	<string>images/backgroundEmpty.png</string>
+	<key>Build Format</key>
+	<string>DMG (OS X only)</string>
+	<key>Custom Icon Path</key>
+	<string></string>
+	<key>Disk Image Name</key>
+	<string>~/Sites/alarmclock/downloads/Sample Alarms.dmg</string>
+	<key>Encode Format</key>
+	<string>None</string>
+	<key>Encryption Type</key>
+	<string>None</string>
+	<key>Finalize Format</key>
+	<string>Read-only with compression</string>
+	<key>Icon Size</key>
+	<string>80</string>
+	<key>Image Size Extra</key>
+	<string>0</string>
+	<key>Image Size Type</key>
+	<string>Automatic</string>
+	<key>Internet Enable</key>
+	<string>FALSE</string>
+	<key>Item List</key>
+	<array>
+		<dict>
+			<key>Origin</key>
+			<string>{212, 57}</string>
+			<key>Path</key>
+			<string>sounds/Sample Alarms/Nature Alarms</string>
+			<key>Type</key>
+			<string>File Item</string>
+		</dict>
+		<dict>
+			<key>Origin</key>
+			<string>{329, 113}</string>
+			<key>Path</key>
+			<string>sounds/Sample Alarms/Standard Alarms</string>
+			<key>Type</key>
+			<string>File Item</string>
+		</dict>
+		<dict>
+			<key>Origin</key>
+			<string>{247, 229}</string>
+			<key>Path</key>
+			<string>sounds/Sample Alarms/Readme.txt</string>
+			<key>Type</key>
+			<string>File Item</string>
+		</dict>
+	</array>
+	<key>License List</key>
+	<array/>
+	<key>Lock Frame</key>
+	<string>TRUE</string>
+	<key>Project File Path</key>
+	<string>/Users/robbie/Programs/AlarmClock/</string>
+	<key>Show Toolbar</key>
+	<string>TRUE</string>
+	<key>Volume Name</key>
+	<string>Sample Alarms</string>
+	<key>Window Frame</key>
+	<string>{{128, 94}, {498, 437}}</string>
+</dict>
+</plist>

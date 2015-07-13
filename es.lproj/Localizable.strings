@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minutos";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Avanzado";
+
+/* Preference Pane Option */
+"Easy Wake" = "Despertar fácil";
+
+/* Preference Pane Option */
+"General" = "General";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Los componentes internos del programa han cambiado. Se requiere volver a Autentificar para despertar la computadora.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Los componentes internos del programa se han dañado.\nPor favor reinstale el programa.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Se requiere volver a Autentificar";
+
+/* Dialog Title */
+"Security Warning" = "Advertencia de Seguridad";
+
+/* Preference Pane Option */
+"Software Update" = "Actualización de Software";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Este programa se maneja en la barra de menú del sistema, en la parte superior derecha. Desde su icono puedes controlar tus alarmas, cambiar las preferencias y cerrar el programa. ¡Disfrútalo!\n\nPS Para regresar del reposo tu computadora, primero debes introducir tu contraseña en las preferencias del programa.";
+
+/* Today */
+"Today" = "Hoy";
+
+/* Tomorrow */
+"Tomorrow" = "Mañana";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Bienvenido a Reloj de Alarma";

@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {closeConfigPanel = id; nameDidChange = id; }; 
+            CLASS = TimerController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alwaysOnTopButton = id; 
+                configPanel = id; 
+                nameField = id; 
+                timeField = id; 
+                transparentView = id; 
+                useAlarmVolumeButton = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = TransparentView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {transparentController = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TransparentWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {transparentView = id; }; 
+            SUPERCLASS = NSWindow; 
+        }
+    ); 
+    IBVersion = 1; 
+}

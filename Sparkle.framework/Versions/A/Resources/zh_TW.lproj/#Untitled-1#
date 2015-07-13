@@ -1,0 +1,56 @@
+if(chunkedTransferStage == CHUNKED_STAGE_SIZE)
+{
+  // We have just read in a line with the size of the chunk data, in hex, 
+  // possibly followed by a semicolon and extra parameters that can be ignored,
+  // and ending with CRLF.
+  NSString *sizeLine = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
+  
+  long chunkSize = strtol([sizeLine UTF8String], NULL, 16);
+  NSLog(@"chunkSize: %i", chunkSize);
+  
+  if(chunkSize > 0)
+  {
+    // Don't forget about the trailing CRLF when downloading the data
+    chunkedTransferStage = CHUNKED_STAGE_DATA;
+    [asyncSocket readDataToLength:(chunkSize + 2)
+              withTimeout:READ_BODY_TIMEOUT
+                  tag:tag];
+    
+  }
+  else
+  {
+    chunkedTransferStage = CHUNKED_STAGE_FOOTER;
+    [asyncSocket readDataToData:[AsyncSocket CRLFData]
+            withTimeout:READ_FOOTER_TIMEOUT
+                tag:tag];
+  }
+}
+else if(chunkedTransferStage == CHUNKED_STAGE_DATA)
+{
+  // Append the data to our http message
+  CFHTTPMessageAppendBytes(response, [data bytes], [data length]);
+  
+  chunkedTransferStage = CHUNKED_STAGE_SIZE;
+  [asyncSocket readDataToData:[AsyncSocket CRLFData]
+          withTimeout:READ_CHUNKSIZE_TIMEOUT
+              tag:tag];
+}
+else if(chunkedTransferStage == CHUNKED_STAGE_FOOTER)
+{
+  // The data we just downloaded is either a footer, or a empty line (single CRLF)
+  if([data length] > 2)
+  {
+    // We currently don't care about footers, because we're not going to be using them for anything
+    // If we did care about them, we could parse them out (ignoring the trailing CRLF),
+    // and use CFHTTPMessageSetHeaderFieldValue to add them to the header.
+    [asyncSocket readDataToData:[AsyncSocket CRLFData] 
+            withTimeout:READ_FOOTER_TIMEOUT 
+                tag:tag];
+  }
+  else
+  {
+    // Mark the download as complete
+    // We take care of notifying the delegate and cleaning up below
+    downloadComplete = YES;
+  }
+}

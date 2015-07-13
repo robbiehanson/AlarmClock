@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minut";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Zaawansowane";
+
+/* Preference Pane Option */
+"Easy Wake" = "Budzonko";
+
+/* Preference Pane Option */
+"General" = "Alarmy";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Zostały zmienione wewnętrzne komponenty programu. Wymagana jest ponowna autoryzacja, aby program budził komputer z uśpienia.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Zostały naruszone wewnętrzne komponenty programu.\nNależy ponownie zainstalować program.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Wymagana ponowna autoryzacja";
+
+/* Dialog Title */
+"Security Warning" = "Komunikat bezpieczeństwa";
+
+/* Preference Pane Option */
+"Software Update" = "Software Update";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Ten program działa w systemowym pasku menu - w prawym, górnym rogu. Możesz kontrolować swoje alarmy, zmieniać preferencje i wyłączać program używając jego znaczka. Miłych wrażeń!\n\nPS - Aby obudzić komputer z uśpienia, musisz wpierw wykonać autoryzację w preferencjach programu.";
+
+/* Today */
+"Today" = "Dzisiaj";
+
+/* Tomorrow */
+"Tomorrow" = "Jutro";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Alarm Clock wita";

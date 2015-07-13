@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i דקות";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "מתקדם";
+
+/* Preference Pane Option */
+"Easy Wake" = "התעוררות קלה";
+
+/* Preference Pane Option */
+"General" = "שעונים מעוררים";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "מרכיבים פנימיים של התוכנה שונו. אישור מחדש נצרך בכדי להעיר את המחשב משינה.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "מרכיבים פנימיים של התוכנה אינם תקינים.\nאנא התקן/י את התוכנה מחדש.";
+
+/* Dialog Button */
+"OK" = "אשר";
+
+/* Dialog Title */
+"Reauthentication Required" = "נצרך אישור מחדש";
+
+/* Dialog Title */
+"Security Warning" = "אזהרת בטיחות";
+
+/* Preference Pane Option */
+"Software Update" = "עדכון תוכנה";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "תוכנה זאת רצה ב Menu bar, בפינה הימנית-עליונה של המסך. ניתן לשלוט בשעונים מעוררים, לשנות הגדרות ולסגור את התוכנה מאייקון זה. תהנו!\n\nדרך אגב, להעיר את המחשב משינה צריך לאשר בהגדרות התוכנה.";
+
+/* Today */
+"Today" = "היום";
+
+/* Tomorrow */
+"Tomorrow" = "מחר";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "ברוכים הבאים ל Alarm Clock";

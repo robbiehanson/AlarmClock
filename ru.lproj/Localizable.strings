@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i мин.";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Прочее";
+
+/* Preference Pane Option */
+"Easy Wake" = "\"Мягкое\" включение";
+
+/* Preference Pane Option */
+"General" = "Основные";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Внутренние компоненты приложения подверглись изменениям. Необходимо снова ввести пароль для работы функции выхода компьютера из сна.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Внутренние компоненты приложения подверглись изменениям.\nПожалуйста переустановите Alarm Clock.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Необходимо ввести пароль";
+
+/* Dialog Title */
+"Security Warning" = "Предупреждение системы безопасности";
+
+/* Preference Pane Option */
+"Software Update" = "Обновления";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Это приложение доступно через иконку в строке системного меню, в верхнем правом углу экрана.  Вы можете настраивать будильники, изменять настройки и завершать работу приложения с помощью этой иконки.  Наслаждайтесь!\n\nPS - Чтобы вывести компьютер из сна, Вы должны сначала ввести свой пользовательский пароль в окне параметров.";
+
+/* Today */
+"Today" = "Сегодня";
+
+/* Tomorrow */
+"Tomorrow" = "Завтра";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Добро пожаловать в Alarm Clock";

@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minuter";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Avancerat";
+
+/* Preference Pane Option */
+"Easy Wake" = "Lättväckning";
+
+/* Preference Pane Option */
+"General" = "Allmänt";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Programfilerna har ändrats. Du måste autentisera igen för att kunna väcka datorn.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Programfilerna har ändrats av någon elaking.\nDu måste tyvärr installera om programmet.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Autentisering Krävs";
+
+/* Dialog Title */
+"Security Warning" = "Säkerhetsvarning";
+
+/* Preference Pane Option */
+"Software Update" = "Programuppdatering";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Det här programmet körs i menyraden, i det övre högra hörnet.  Du kan ställa in alarm, ändra inställningar och stänga av programmet från denna ikon. Lycka till!\n\nPS - För att kunna väcka datorn måste du först autentisera programmet i inställningar.";
+
+/* Today */
+"Today" = "Idag";
+
+/* Tomorrow */
+"Tomorrow" = "Imorgon";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Välkommen till Alarm Clock";

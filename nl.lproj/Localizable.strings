@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minuten";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Geavanceerd";
+
+/* Preference Pane Option */
+"Easy Wake" = "Zacht wekken";
+
+/* Preference Pane Option */
+"General" = "Algemeen";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Interne componenten van het programma zijn veranderd. Identiteitscontrole is nogmaals vereist om de computer uit de sluimerstad te ontwaken.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Er is met interne componenten van het programma geknoeid.\nInstalleer het programma opnieuw.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Identiteitscontrole is nogmaals vereist";
+
+/* Dialog Title */
+"Security Warning" = "Beveiligingswaarschuwing";
+
+/* Preference Pane Option */
+"Software Update" = "Software update";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Dit programma is te bedienen vanuit de menubalk, in de bovenste rechterhoek. U kunt hier uw wekkers regelen, de voorkeuren instellen of het programma stoppen.  Geniet ervan!\n\nPS - Om de computer uit de sluimerstand te halen, moet u eerst uw indentiteit bevestigen in de voorkeuren van het programma.";
+
+/* Today */
+"Today" = "Vandaag";
+
+/* Tomorrow */
+"Tomorrow" = "Morgen";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Welcome to Alarm Clock";

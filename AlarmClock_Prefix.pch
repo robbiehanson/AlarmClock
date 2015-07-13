@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AlarmClock' target in the 'AlarmClock' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,44 @@
+﻿/* Label in Preferences panel */
+"%i minutes" = "%i 分鐘";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "進階";
+
+/* Preference Pane Option */
+"Easy Wake" = "漸進式音量";
+
+/* Preference Pane Option */
+"General" = "鬧鈴";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "此程式的內部元件已經變更。需要進行重新驗證以將電腦從睡眠中喚醒。";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "此程式的內部元件已經遭到修改。\n請重新安裝此應用程式。";
+
+/* Dialog Button */
+"OK" = "好";
+
+/* Dialog Title */
+"Reauthentication Required" = "需要重新驗證";
+
+/* Dialog Title */
+"Security Warning" = "安全性警告";
+
+/* Preference Pane Option */
+"Software Update" = "軟體更新";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "此應用程式會在系統的選單列執行，即螢幕的右上角。您可以從其圖像來控制鬧鈴、變更偏好設定，以及結束程式。請盡情享用！\n\n附註：若要將電腦從睡眠中喚醒，您必須先在應用程式的偏好設定中進行認證。";
+
+/* Today */
+"Today" = "今天";
+
+/* Tomorrow */
+"Tomorrow" = "明天";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "歡迎使用 Alarm Clock";

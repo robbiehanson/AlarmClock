@@ -1,0 +1,44 @@
+/* Label in Preferences panel */
+"%i minutes" = "%i minutter";
+
+/* Label in Preferences panel */
+"%i%%" = "%i%%";
+
+/* Preference Pane Option */
+"Advanced" = "Avanceret";
+
+/* Preference Pane Option */
+"Easy Wake" = "Gradvis vækning";
+
+/* Preference Pane Option */
+"General" = "Generel";
+
+/* Dialog Message */
+"Internal components of the application have changed. Reauthentication is required to wake the computer from sleep." = "Programkoden er blevet skrevet om hvilket kræver, at du godkender igen for at vække computeren fra vågeblus.";
+
+/* Dialog Message */
+"Internal components of the program have been tampered with.\nPlease reinstall the application." = "Der er blevet pillet ved programkoden. Genindstaller Alarm Clock.";
+
+/* Dialog Button */
+"OK" = "OK";
+
+/* Dialog Title */
+"Reauthentication Required" = "Kræver godkendelse";
+
+/* Dialog Title */
+"Security Warning" = "Sikkerhedsadvarsel";
+
+/* Preference Pane Option */
+"Software Update" = "Softwareopdatering";
+
+/* Dialog Message */
+"This application runs in the system menu bar, in the upper right-hand corner.  You may control your alarms, change preferences, and quit the application from this icon.  Enjoy!\n\nPS - To wake the computer from sleep, you must first authenticate in the app's preferences." = "Dette program kører i system menuen i øverste højre hjørne. Du kan ændre alarmer, indstillinger og slutte programmet fra dette ikon. God fornøjelse!\n\nPS: For at vække computeren fra vågeblus skal du først godkende under indstillinger.";
+
+/* Today */
+"Today" = "I dag";
+
+/* Tomorrow */
+"Tomorrow" = "I morgen";
+
+/* Dialog Title */
+"Welcome to Alarm Clock" = "Velkommen til Alarm Clock";
